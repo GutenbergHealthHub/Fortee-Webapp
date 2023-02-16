@@ -1,9 +1,9 @@
 kind: Template
 apiVersion: template.openshift.io/v1
 metadata:
-  name: forte-webapp-template
+  name: fortee-webapp-template
   annotations:
-    description: "Template for the set up of the FORTE webapp"
+    description: "Template for the set up of the FORTEe webapp"
     tags: "compass,nodejs,frontend,webapp,stencil"
 objects:
   - kind: ImageStream
@@ -35,13 +35,13 @@ objects:
   - kind: BuildConfig
     apiVersion: build.openshift.io/v1
     metadata:
-      name: forte
+      name: fortee
       annotations:
         app.openshift.io/vcs-ref: ${GIT_BRANCH}
         app.openshift.io/vcs-uri: ${APP_GIT_URL}
       labels:
-        app: forte-webapp
-        app.kubernetes.io/component: forte-webapp
+        app: fortee-webapp
+        app.kubernetes.io/component: fortee-webapp
         app.kubernetes.io/name: ${APP_NAME}
         app.kubernetes.io/instance: ${APP_NAME}-${INSTANCE_IDENTIFIER}
         app.kubernetes.io/part-of: ${HIGH_LVL_APP_NAME}
@@ -52,7 +52,7 @@ objects:
       output:
         to:
           kind: ImageStreamTag
-          name: forte-webapp:${ENV}
+          name: fortee-webapp:${ENV}
       resources: {}
       successfulBuildsHistoryLimit: 5
       failedBuildsHistoryLimit: 5
@@ -94,10 +94,10 @@ objects:
     metadata:
       annotations:
         app.openshift.io/vcs-uri: ${APP_GIT_URL}
-      name: forte-webapp
+      name: fortee-webapp
       labels:
-        app: forte-webapp
-        app.kubernetes.io/component: forte-webapp
+        app: fortee-webapp
+        app.kubernetes.io/component: fortee-webapp
         app.kubernetes.io/name: ${APP_NAME}
         app.kubernetes.io/instance: ${APP_NAME}-${INSTANCE_IDENTIFIER}
         app.kubernetes.io/part-of: ${HIGH_LVL_APP_NAME}
@@ -119,25 +119,25 @@ objects:
           imageChangeParams:
             automatic: true
             containerNames:
-              - forte-webapp
+              - fortee-webapp
             from:
               kind: ImageStreamTag
-              name: "forte-webapp:${ENV}"
+              name: "fortee-webapp:${ENV}"
         - type: ConfigChange
       replicas: 1
       revisionHistoryLimit: 10
       test: false
       selector:
-        app: forte-webapp
-        deploymentconfig: forte-webapp
+        app: fortee-webapp
+        deploymentconfig: fortee-webapp
       template:
         metadata:
           labels:
-            app: forte-webapp
-            deploymentconfig: forte-webapp
+            app: fortee-webapp
+            deploymentconfig: fortee-webapp
         spec:
           containers:
-            - name: forte-webapp
+            - name: fortee-webapp
               ports:
                 - containerPort: 8080
                   protocol: TCP
@@ -162,10 +162,10 @@ objects:
   - kind: Service
     apiVersion: v1
     metadata:
-      name: forte-webapp
+      name: fortee-webapp
       labels:
-        app: forte-webapp
-        app.kubernetes.io/component: forte-webapp
+        app: fortee-webapp
+        app.kubernetes.io/component: fortee-webapp
         app.kubernetes.io/name: ${APP_NAME}
         app.kubernetes.io/instance: ${APP_NAME}-${INSTANCE_IDENTIFIER}
         app.kubernetes.io/part-of: ${HIGH_LVL_APP_NAME}
@@ -176,24 +176,24 @@ objects:
           port: 80
           targetPort: 8080
       selector:
-        app: forte-webapp
+        app: fortee-webapp
         deploymentconfig: forte-webapp
       type: ClusterIP
       sessionAffinity: None
   - kind: Route
     apiVersion: v1
     metadata:
-      name: forte-webapp
+      name: fortee-webapp
       labels:
-        app: forte-webapp
-        app.kubernetes.io/component: forte-webapp
+        app: fortee-webapp
+        app.kubernetes.io/component: fortee-webapp
         app.kubernetes.io/name: ${APP_NAME}
         app.kubernetes.io/instance: ${APP_NAME}-${INSTANCE_IDENTIFIER}
         app.kubernetes.io/part-of: ${HIGH_LVL_APP_NAME}
     spec:
       to:
         kind: Service
-        name: forte-webapp
+        name: fortee-webapp
         weight: 100
       port:
         targetPort: 8080-tcp
@@ -210,7 +210,7 @@ parameters:
     value: prod
   - name: APP_NAME
     description: Name of the application
-    value: forte-webapp
+    value: fortee-webapp
   - name: VOLUME_CAPACITY
     description: Volume space available for data, e.g. 512Mi, 2Gi.
     displayName: Volume Capacity
@@ -237,7 +237,7 @@ parameters:
     from: "[a-zA-Z0-9]{16}"
   - name: HIGH_LVL_APP_NAME
     description: Name of the higher level application that a resource is part of
-    value: FORTE
+    value: FORTEe
   - name: INSTANCE_IDENTIFIER
     description: Unique identifier for resources
     generate: expression
