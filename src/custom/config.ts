@@ -11,5 +11,8 @@
 
 import { NUMCustomAppConfig } from 'types';
 
-const CUSTOM_CONFIG: NUMCustomAppConfig = {};
+const CUSTOM_CONFIG: NUMCustomAppConfig = {
+  QR_PROP_APP_NAME: 'FORTEe',
+  TRIGGER_RULES: [],
+};
 export default CUSTOM_CONFIG;
