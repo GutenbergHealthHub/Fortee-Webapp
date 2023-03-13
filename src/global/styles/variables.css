@@ -11,11 +11,11 @@
   --font-family-secondary: var(--font-family-primary);
 
   --color-white: #fff;
-
-  --color-primary: #1c2732;
-  --color-primary-light: #343e47;
-  --color-primary-lighter: #676e75;
-  --color-primary-lightest: #aaacaf;
+/* #19417b */
+  --color-primary: #19417b;
+  --color-primary-light: #246197;
+  --color-primary-lighter: #348ebd;
+  --color-primary-lightest: #3da6d1;
   --color-primary-extra-lightest: #d1d1d1;
 
   --color-secondary: #eb576a;
