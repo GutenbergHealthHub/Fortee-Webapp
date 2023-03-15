@@ -7,7 +7,8 @@ RUN npm install
 COPY . ./
 RUN npm run build
 
-FROM bitname/nginx:latest
+FROM bitnami/nginx:latest
 COPY --from=builder /usr/src/app/www /opt/bitnami/nginx/html
+COPY fortee.izks-mainz.de.conf /opt/bitnami/nginx/conf/bitnami/fortee.izks-mainz.de.conf
 EXPOSE 8080
 CMD ["nginx", "-g", "daemon off;"]
