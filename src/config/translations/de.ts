@@ -63,6 +63,7 @@ export default {
     dismiss_button: 'Schließen',
   },
   questionnaire: {
+    overview: 'Zur Übersicht',
     back: 'Zurück',
     confirm_submit: {
       error:
@@ -118,16 +119,21 @@ export default {
     content: `<b>Anschrift und Kontakt</b>
     <br>
     Universitätsmedizin der Johannes Gutenberg-Universität Mainz
+    <br>
     Langenbeckstraße 1
+    <br>
     55131 Mainz
-    Tel. +49 (0) 6131 17-0
-    E-Mail: fortee@unimedizin-mainz.de
+    <br>
+    Tel. <a href="tel:+49 (0) 6131 17-0">+49 (0) 6131 17-0</a>
+    <br>
+    E-mail: <a href="mailto:webmaster@unimedizin-mainz.de">webmaster@unimedizin-mainz.de</a>
     <br><br>
     <b>Rechtsform</b>
     <br>
     Die Universitätsmedizin der Johannes Gutenberg-Universität Mainz ist eine Körperschaft des öffentlichen Rechts.
+    <br><br>
+    <b>Mitglieder des Vorstandes der Universitätsmedizin Mainz</b>
     <br>
-    Mitglieder des Vorstandes der Universitätsmedizin Mainz
     Vorstandsvorsitzender und Medizinischer Vorstand (vertretungsberechtigt)
     Univ.-Prof. Dr. Norbert Pfeiffer
     Weiterführende Informationen: www.unimedizin-mainz.de/ueber-uns/vorstand
@@ -139,16 +145,23 @@ export default {
     <b>Vorsitzender des Aufsichtsrates</b>
     <br>
     Staatssekretär Dr. Denis Alt
+    <br>
     Ministerium für Wissenschaft und Gesundheit des Landes Rheinland-Pfalz
+    <br>
     Mittlere Bleiche 61
+    <br>
     55116 Mainz
     <br><br>
     <b>Aufsichtsbehörde</b>
     <br>
     Die Universitätsmedizin steht unter der Rechtsaufsicht des für das Hochschulwesen zuständigen Ministeriums, die nach den hierfür geltenden hochschulrechtlichen Regelungen ausgeübt wird.
     Zuständige Aufsichtsbehörde für die Universitätsmedizin ist:
+    <br>
     Ministerium für Wissenschaft und Gesundheit des Landes Rheinland-Pfalz
+    <br>
     Mittlere Bleiche 61
+    <br>
+    55116 Mainz
     `,
   },
   terms: {
@@ -162,18 +175,26 @@ export default {
     content: `Die Webapp ist über die folgende gesicherte Website erreichbar: <a href="https://fortee.izks-mainz.de/">https://fortee.izks-mainz.de/</a>
       <br><br>
       Mit der Nutzung der FORTEe Web App können Fragebögen der FORTEe Studie durch Studienteilnehmer*innen ausgefüllt und übermittelt werden. Die Nutzung erfolgt ausschließlich im entsprechenden Internetbrowser eines internetfähigen Endgeräts; dabei ist keine zusätzliche Installation von Software oder eine Form der Registrierung erforderlich.
-      Der zur Anmeldung erforderliche Teilnehmercode beinhaltet eine individuelle Identifikationsnummer (Pseudonym) mit welcher die Daten derFragebögen zur Speicherung übermittelt werden. Auf diese Weise können die Daten einer*m Studienteilnehmer*in zugeordnet werden, ohne eine direkte Verknüpfung zu den personenidentifizierenden Daten (z.B. Name) herzustellen. Die eingegebenen Daten werden ausschließlich pseudonymisiert sowie verschlüsselt übermittelt und gespeichert. 
+      <br><br>
+      Der zur Anmeldung erforderliche Teilnehmercode beinhaltet eine individuelle Identifikationsnummer (Pseudonym), mit welcher die Daten der Fragebögen zur Speicherung übermittelt werden. Auf diese Weise können die Daten einer*m Studienteilnehmer*in zugeordnet werden, ohne eine direkte Verknüpfung zu den personenidentifizierenden Daten (z.B. Name) herzustellen. Die eingegebenen Daten werden ausschließlich pseudonymisiert sowie verschlüsselt übermittelt und gespeichert. 
+      <br><br>
       Es werden ausschließlich die in der Benutzungsoberfläche der Webapp eingegebenen Daten übermittelt, verarbeitet und gespeichert. Die Verarbeitung erfolgt ausschließlich zu den in der Informationsschrift der FORTEe-Studie beschriebenen Zwecken und auf Grundlage der erteilten Einwilligung, welche jederzeit formlos widerrufen werden kann. Die FORTEe Webapp hat keinen Zugriff auf persönliche Daten, die sich auf dem Endgerät des Nutzers befinden. Ebenfalls werden keine Daten zum Nutzungsverhalten analysiert. Es wird ausdrücklich darauf hingewiesen, dass zu keinem Zeitpunkt Daten zur Erstellung eines Profils zu Werbezwecken erfolgt.
+      <br><br>
       Die Datenübermittelung findet durch den Benutzer statt und kann nach Übermittlung nicht rückgängig gemacht werden. Ebenfalls ist kein Datenabruf über die Webapp möglich. 
       <br><br>
       <b>Art der Daten</b>
       <ul>
       <li>Identifikationsnummer/Pseudonym</li>
       <li>Gesundheitsdaten (u.a. Bitte beispielhafte Aufzählung) = Ergebnisse der Fragebögen </li>
-      <li>Im Rahmen der Nutzung der Website: IP-Adresse, Zeitstempel ? Zur Aufrechterhaltung der Funktionsfähigkeit der Website. Rechtsgrundlage für die Verarbeitung ist Art. 6 Absatz 1 lit. f) DS-GVO („berechtigtes Interesse“). Die Daten standardmäßig und automatisiert nach 180 Tagen (?) gelöscht.</li>
+      <li>Im Rahmen der Nutzung der Website: IP-Adresse und Zeitstempel bei Aufruf der Webseite zur Aufrechterhaltung der Funktionsfähigkeit der Website. Rechtsgrundlage für die Verarbeitung ist Art. 6 Absatz 1 lit. f) DS-GVO („berechtigtes Interesse“). Die Daten werden standardmäßig und automatisiert nach 90 Tagen gelöscht.</li>
       </ul>
-      Datenempfänger
-      Universitätsmedizin Mainz (Langenbeckstraße 1, 55131 Mainz) Klinik noch benennen!
+      <br>
+      <b>Datenempfänger</b>
+      <br>
+      Universitätsmedizin Mainz,
+      Klinik und Poliklinik für Kinder- und Jugendmedizin,
+      Pädiatrische Hämatologie/Onkologie/Hämostaseologie
+      (Langenbeckstraße 1, 55131 Mainz)
       <br><br>
       <b>Speicherung und Löschung der Daten</b>
       <br>
@@ -190,39 +211,41 @@ export default {
       <br><br>
       <i>Recht auf Löschung nach Artikel 17, 19 DS-GVO: </i>
       <br>
-      Sie haben das Recht, die Löschung der Sie betreffenden personenbezogenen Daten zu verlangen. 
-      Recht auf Einschränkung der Verarbeitung nach Artikel 18, 19 DS-GVO: 
+      Sie haben das Recht, die Löschung der Sie betreffenden personenbezogenen Daten zu verlangen.
+      <br><br>
+      <i>Recht auf Einschränkung der Verarbeitung nach Artikel 18, 19 DS-GVO:</i>
       Sie haben das Recht, die Verarbeitung der Sie betreffenden personenbezogenen Daten einzuschränken. 
       <br><br>
       <i>Recht auf Datenübertragbarkeit nach Art. 20 DS-GVO: </i>
       <br>
-      Sie haben das Recht, die Siebetreffenden personenbezogenen Daten, die Sie den Verantwortlichen für die Studie bereitgestellt haben, zu erhalten. Damit können Sie beantragen, dass diese Daten entweder Ihnen oder, soweit technisch möglich, einer anderen von Ihnen benannten Stelle übermittelt werden. 
+      Sie haben das Recht, die Sie betreffenden personenbezogenen Daten, die Sie den Verantwortlichen für die Studie bereitgestellt haben, zu erhalten. Damit können Sie beantragen, dass diese Daten entweder Ihnen oder, soweit technisch möglich, einer anderen von Ihnen benannten Stelle übermittelt werden. 
       <br><br>
       <i>Widerspruchsrecht nach Art. 21 DS-GVO: </i>
       <br>
-      Sie haben das Recht, gegen die Verarbeitung der Siebetreffenden personenbezogenen Daten Widerspruch einzulegen.
+      Sie haben das Recht, gegen die Verarbeitung der Sie betreffenden personenbezogenen Daten Widerspruch einzulegen.
       <br><br>
       <b>Verantwortlicher</b>
       <br> 
-      Für die Verarbeitung der personenbezogenen Daten ist rechtlich verantwortlich: Analog der Einwilligung = Parteien des JC! 
+      Für die Verarbeitung der personenbezogenen Daten sind rechtlich gemeinsam verantwortlich:
+      <ul>
+      <li>Universitätsmedizin Mainz (Langenbeckstraße 1, 55131 Mainz)</li>
+      <li>Universitätsklinikum Heidelberg (In Neuenheimer Feld 672, 69120 Heidelberg)</li>
+      <li>Centre de Lutte Contre le Cancer Leon Berard (Rue Laennec 28, 69373 Lyon, France)</li>
+      <li>Oxford Brookes University (Headington Campus Gipsy Lane, OX3 OPB Oxford, Vereinigtes Königreich, UK)*</li>
+      <li>Fondazione Monza e Brianza per ll Bambino e La Sua Mamma (Via Pergolesi 33, 20052 Monza, Italien)</li>
+      <li>Region Hovedstaden  (Kngens Vaenge 2, 3400 Hillerod, Dänemark)</li>
+      <li>Universidad Europea de Madrid SL (Calle Tajo S/N, 28670 Villaviciosa, Spanien)</li>
+      <li>Fondazione IRCCS Istituto Nazionale dei Tumori (Via Venezian 1, 20133 Mailand, Italien)</li>
+      <li>Univerzitetni Klinicni Center Ljublijana (Zaloška cesta 002, 1000 Ljubljana, Slowenien) in Kooperation mit Forma 3D Ltd. (Slomškova ulica 35, 1000 Ljubljana, Slowenien)
+      </li>
+      <li>Deutsche Sporthochschule Köln (Am Sportpark Muengersdorf 6, 50933 Cologne)</li>
+      </ul>
       <br><br>
-      Universitätsmedizin der Johannes Gutenberg-Universität Mainz 
-      vertreten durch den Vorstand<br>
-      Langenbeckstraße 1, 55131 Mainz <br>
-      <a href=tel:06131 17-0>Telefon: 06131 17-0</a><br>
-      Webseite: <a href="https://www.unimedizin-mainz.de/">www.unimedizin-mainz.de/</a>
+      Für Rückfragen sowie zur Umsetzung Ihrer Betroffenenrechte steht Ihnen das FORTEe-Studienteam ihres Studienzentrums gerne zur Verfügung: Wenden Sie sich dazu bitten an die in den Studieninformationen angegebenen Kontaktdaten. Weitere Informationen zur FORTEe Studie finden Sie ebenfalls in den an Sie ausgehändigten Studienunterlagen.
       <br><br>
       <b>Kontaktdaten DSB</b>
       <br>
-      Ihnen steht ein Beschwerderecht bei einer Aufsichtsbehörde Ihrer Wahl zu. Die zuständige Aufsichtsbehörde für die Universitätsmedizin Mainz ist der Landesbeauftragte für den Datenschutz und die Informationsfreiheit Rheinland-Pfalz: <br>
-      Postfach 30 40, 55020 Mainz<br>
-      Hintere Bleiche 34, 55116 Mainz<br>
-      Tel.: <a href="tel:+49 (0) 6131 208-2449">+49 (0) 6131 208-2449</a><br>
-      Fax: +49 (0) 6131 208-2497<br>
-      Email: <a href="mailto:"poststelle@datenschutz.rlp.de">poststelle@datenschutz.rlp.de</><br>
-      <a href="https://www.datenschutz.rlp.de">https://www.datenschutz.rlp.de</a><br>
-      <br><br>
-      Weitere Information können Sie der Informationsschrift der FORTEe-Studie entnehmen.
+      Ihnen steht ein Beschwerderecht bei einer Aufsichtsbehörde Ihrer Wahl zu. Die zuständige Aufsichtsbehörde können Sie ebenfalls der Informationsschrift der FORTEe-Studie entnehmen.
       `,
   },
 };

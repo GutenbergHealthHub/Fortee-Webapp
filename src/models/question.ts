@@ -177,7 +177,7 @@ export class NUMQuestionnaireQuestion {
       return this.firstChildQuestion?.isAnswerable || false;
     }
 
-    return this.isEnabled && (this.isAnswered || this.previous?.isAnswered || !this.previous);
+    return this.isEnabled;
   }
 
   get firstChildQuestion() {

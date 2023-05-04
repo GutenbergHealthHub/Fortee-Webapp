@@ -16,5 +16,5 @@ export const formatDate = (date: Date, formatting?: Intl.DateTimeFormatOptions) 
     day: 'numeric',
   };
 
-  return new Intl.DateTimeFormat(stores.i18n.language.code, options).format(date);
+  return new Intl.DateTimeFormat(stores.i18n.language.locale, options).format(date);
 };

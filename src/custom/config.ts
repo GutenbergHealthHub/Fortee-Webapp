@@ -14,5 +14,7 @@ import { NUMCustomAppConfig } from 'types';
 const CUSTOM_CONFIG: NUMCustomAppConfig = {
   QR_APP_NAME: 'FORTEe',
   TRIGGER_RULES: [],
+  FALLBACK_LANGUAGE_CODE: 'en',
+  FEATURES_QUESTIONNAIRE_SHOW_LINKIDS: false,
 };
 export default CUSTOM_CONFIG;

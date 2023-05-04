@@ -119,6 +119,10 @@ export class QuestionnaireQuestionComponent {
     requestAnimationFrame(() => this.focusFirstInput());
   }
 
+  moveToOverview() {
+    return this.switchDisplayModeHandler('index');
+  }
+
   handleChange = (linkId: string, value: NUMQuestionnaireAnswer) => {
     if (linkId === this.question.linkId) {
       this.pendingAnswer = [].concat(value).filter(isValidValue);
@@ -214,6 +218,12 @@ export class QuestionnaireQuestionComponent {
           classes="button--block button--secondary u-margin-top--normal"
           text={stores.i18n.t('questionnaire.back')}
           handleClick={() => this.moveToPreviousQuestion()}
+        />
+
+        <d4l-button
+          classes="button--block button--secondary u-margin-top--normal"
+          text={stores.i18n.t('questionnaire.overview')}
+          handleClick={() => this.moveToOverview()}
         />
       </Card>
     );
