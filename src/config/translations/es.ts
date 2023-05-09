@@ -48,12 +48,12 @@ export default {
     copyright_note: '© {{ year }} NUM compass',
     dashboard: 'Overview',
     faq: 'FAQ',
-    imprint: 'Imprint',
+    imprint: 'Imprimir',
     logo: 'NUM compass web app',
     logout: 'Logout',
-    privacy_policy: 'Privacy policy',
+    privacy_policy: 'Política de privacidad ',
     session_expired: 'Your session expired. Please log in again to proceed.',
-    terms_of_use: 'Terms of use',
+    terms_of_use: 'Condiciones de uso',
     title: 'Menu',
   },
   notification_bar: {
@@ -110,7 +110,7 @@ export default {
     infotext: 'Here is the place for a short and informative introductory text about the app.',
   },
   imprint: {
-    headline: 'Imprint',
+    headline: 'Imprimir',
     content: `<b>Contact Details</b>
     <br>
     University Medicine of Johannes Gutenberg University Mainz
@@ -162,80 +162,109 @@ export default {
     `,
   },
   terms: {
-    headline: 'Terms of Use',
+    headline: 'Condiciones de uso',
     content:
       'The use of the Fortee Webapp takes place exclusively within the framework of the Fortee study. Accordingly, only study participants of the Fortee study are entitled to use it.',
   },
   privacy_policy: {
-    headline: 'Privacy policy',
-    content: `The web app can be accessed via the following secure website: https://fortee.izks-mainz.de/
+    headline: 'Política de privacidad',
+    content: `<p>
+    La aplicación web se puede acceder a través de la siguiente página web protegida: <a
+        href="https://fortee.izks-mainz.de">https://fortee.izks-mainz.de/</a>
     <br><br>
-    By using the Fortee Web App, questionnaires of the Fortee study can be completed and transmitted by study participants. The use takes place exclusively in the corresponding Internet browser of an internet-enabled terminal; no additional installation of software or any form of registration is required.
+    Los participantes del estudio pueden rellenar y enviar cuestionarios del estudio FORTEe usando la aplicación web
+    FORTEe. Esta se puede usar exclusivamente en el navegador web de un dispositivo móvil con acceso a Internet. Es
+    decir, no es necesario instalar ningún software adicional ni registrarse.
     <br><br>
-    The participant code required for registration includes an individual identification number (pseudonym) with which the data of the questionnaires are transmitted for storage. In this way, the data can be assigned to a study participant without establishing a direct link to the person-identifying data (e.g. name). The entered data is transmitted exclusively pseudonymised and encrypted and stored.
+    El código de participante requerido para iniciar sesión consta de un número de identificación individual
+    (pseudónimo) con el cual se envían los datos de los cuestionarios para guardarlos. De este modo, se pueden asignar
+    los datos a un participante de estudio sin tener que establecer un vínculo directo a los datos personales (p. ej.
+    nombre). Los datos solo son transmitidos y guardados con el pseudónimo correspondiente y encriptados.
     <br><br>
-    Only the data entered in the user interface of the Webapp is transmitted, processed and stored. The processing takes place exclusively for the purposes described in the information document of the Forte study and on the basis of the consent given, which can be revoked informally at any time. The Fortee Webapp does not have access to personal data that is located on the user&rsquo;s terminal device. Also, no data on usage behavior is analysed. It is expressly pointed out that data for the creation of a profile for advertising purposes does not take place at any time.
+    Únicamente se transmiten, procesan y guardan los datos introducidos en la interfaz de usuario de la aplicación web.
+    El procesamiento solo se lleva a cabo para los fines descritos en el folleto informativo del estudio FORTEe y en
+    base con el consentimiento informado que podrá ser revocado en cualquier momento y de manera informal. La aplicación
+    web FORTEe no tiene acceso a datos personales que se encuentren en el dispositivo móvil del usuario. Asimismo, no se
+    analiza ningún dato respecto al comportamiento de uso. Se informa de forma explícita que no se utilizan los datos en
+    ningún momento para la creación de un perfil con fines publicitarios.
     <br><br>
-    The data transmission takes place by the user and cannot be undone after transmission. Also, no data retrieval is possible via the web app.
+    El usuario transmite los datos y, tras hacerlo, esta acción no puede revertirse. A través de la aplicación web
+    tampoco se puede acceder a los datos.
     <br><br>
-    <b>Type of data</b>
-    <ul>
-    <li>Identification number/pseudonym</li>
-    <li>Health data (questionnaire data on fatigue, quality of life, mental health, resilience and physical activity)</li>
-    <li>In the context of the use of the website: IP address and timestamp when accessing the website to maintain the functionality of the website. The legal basis for the processing is Art. 6 paragraph 1 lit. f) GDPR (&ldquo;legitimate interest&rdquo;). The data is deleted by default and automatically after 90 days.</li>
-    </ul>
-    <br>
-    <b>Data Recipients</b>
-    <br>
-    University Medical Center Mainz, Department of Pediatric and Adolescent Medicine, Pediatric Hematology/Oncology/Hemostaseology (Langenbeckstraße 1, 55131 Mainz)
-    <br><br>
-    <b>Storage and deletion of data</b>
-    <br>
-    The study-related data will be deleted after 30 years at the latest.
-    <br><br>
-    <b>Rights of Affected</b>
-    <br>
-    <i>Right to information pursuant to Article 15 GDPR:</i>
-    You have the right to request information about whether and which personal data are processed by us.
-    <br><br>
-    <i>Right to rectification pursuant to Articles 16, 19 GDPR:</i>
-    You have the right to have incorrect personal data rectified about you.
-    <br><br>
-    <i>Right to erasure pursuant to Article 17, 19 GDPR:</i>
-    <br>
-    You have the right to request the deletion of your personal data.
-    <br><br>
-    <i>Right to restriction of processing pursuant to Articles 18, 19 GDPR:</i>
-    <br>
-    You have the right to restrict the processing of personal data concerning you.
-    <br><br>
-    <i>Right to data portability according to Art. 20 GDPR:</i>
-    <br>
-    You have the right to receive the personal data concerning you that you have provided to the data controllers for the study. This allows you to request that this data be transmitted to you or, where technically possible, to another body designated by you.
-    <br><br>
-    <i>Right of objection pursuant to Art. 21 GDPR:</i>
-    You have the right to object to the processing of your personal data.
-    <br><br>
-    <b>Responsible person</b>
-    <br>
-    For the processing of personal data, we are legally jointly responsible:
-    <ul>
-    <li>University Medical Center Mainz (Langenbeckstraße 1, 55131 Mainz)</li>
-    <li>University Hospital Heidelberg (In Neuenheimer Feld 672, 69120 Heidelberg)</li>
+    <i>Tipo de datos</i>
+<ul>
+    <li>Número de identificación/pseudónimo</li>
+    <li>Datos de salud (datos de cuestionario: entre otros, fatiga, calidad de vida, salud mental, resiliencia y
+        actividad
+        física)</li>
+    <li>En el marco del uso de la página web: dirección IP y sello de fecha y hora al acceder a la página web para el
+        mantenimiento y la funcionalidad de la página web. La base jurídica para el procesamiento es el art. 6 pár. 1
+        letra f) del RGPD («interés legítimo»). Los datos se borran por defecto y automáticamente transcurridos 90 días.
+    </li>
+</ul>
+<br>
+<b>Receptor de los datos</b>
+<br>
+Universitätsmedizin Mainz, Klinik und Poliklinik für Kinder- und Jugendmedizin, Pädiatrische
+Hämatologie/Onkologie/Hämostaseologie (Langenbeckstraße 1, 55131 Mainz)
+<br><br>
+<b>Almacenamiento y borrado de los datos</b>
+<br>
+Los datos asociados al estudio se borran transcurridos 30 años a más tardar.
+<br><br>
+<b>Derechos de las personas afectadas</b>
+<br><br>
+<i>Derecho de acceso según el artículo 15 del RGPD:</i>
+Usted tiene el derecho de recibir nuestra confirmación de si hemos tratado o no datos personales que le conciernen y, en
+tal caso, información sobre cuáles son estos datos.
+<br><br>
+<i>Derecho de rectificación según los artículos 16 y 19 del RGPD:</i>
+<br>
+Usted tiene el derecho de solicitar la rectificación de los datos personales que no sean correctos.
+<br><br>
+<i>Derecho de supresión según los artículos 17 y 19 del RGPD:</i>
+<br>
+Usted tiene el derecho de solicitar el borrado de los datos personales que le conciernen.
+<br><br>
+<i>Derecho a la limitación del tratamiento según los artículos 18 y 19 del RGPD:</i>
+<br>
+Usted tiene el derecho de limitar el tratamiento de los datos personales que le conciernen.
+<br><br>
+<i>Derecho a la portabilidad de los datos según el artículo 20 del RGPD:</i>
+<br>
+Usted tiene el derecho de recibir sus datos personales que ha proporcionado al responsable del estudio. De este
+modo, puede solicitar que estos datos sean transferidos o bien a usted o, en caso de que sea técnicamente posible, a
+otro responsable especificado por usted.
+<br><br>
+<i>Derecho de oposición según el artículo 21 del RGPD:</i>
+<br>
+Usted tiene el derecho a oponerse al tratamiento de los datos personales que le conciernen.
+<br><br>
+<b>Responsable</b>
+<br>
+Los responsables legales del procesamiento de los datos personales son:
+<ul>
+    <li>Universitätsmedizin Mainz (Langenbeckstraße 1, 55131 Mainz)</li>
+    <li>Universitätsklinikum Heidelberg (In Neuenheimer Feld 672, 69120 Heidelberg)</li>
     <li>Centre de Lutte Contre le Cancer Leon Berard (Rue Laennec 28, 69373 Lyon, France)</li>
-    <li>Oxford Brookes University (Headington Campus Gipsy Lane, OX3 OPB Oxford, United Kingdom, UK)*</li>
-    <li>Fondazione Monza e Brianza per ll Bambino e La Sua Mamma (Via Pergolesi 33, 20052 Monza, Italy)</li>
-    <li>Hovedstaden Region (Kongens Vaenge 2, 3400 Hillerod, Denmark)</li>
-    <li>Universidad Europea de Madrid SL (Calle Tajo S/N, 28670 Villaviciosa, Spain)</li>
-    <li>Fondazione IRCCS Istituto Nazionale dei Tumori (Via Venezian 1, 20133 Milan, Italy)</li>
-    <li>Univerzitetni Klinicni Center Ljublijana (Zalo&scaron;ka cesta 002, 1000 Ljubljana, Slovenia) in cooperation with Forma 3D Ltd. (Slom&scaron;kova ulica 35, 1000 Ljubljana, Slovenia)</li>
-    <li>German Sports University Cologne (Am Sportpark Muengersdorf 6, 50933 Cologne)</li>
-    </ul>
-    <br>
-    If you have any questions or questions about the implementation of your rights, the Fortee study team of your study centre is at your disposal: Please contact the contact details provided in the study information. Further information about the Fortee study can also be found in the study documents handed over to you.
-    <br><br>
-    <b>Contact details DSB</b>
-    <br>
-    You have the right to lodge a complaint with a supervisory authority of your choice. The competent supervisory authority can also be found in the information document of the Fortee study.`,
+    <li>Oxford Brookes University (Headington Campus Gipsy Lane, OX3 OPB Oxford, Vereinigtes Königreich, UK)*</li>
+    <li>Fondazione Monza e Brianza per ll Bambino e La Sua Mamma (Via Pergolesi 33, 20052 Monza, Italien)</li>
+    <li>Region Hovedstaden  (Kngens Vaenge 2, 3400 Hillerod, Dänemark)</li>
+    <li>Universidad Europea de Madrid SL (Calle Tajo S/N, 28670 Villaviciosa, Spanien)</li>
+    <li>Fondazione IRCCS Istituto Nazionale dei Tumori (Via Venezian 1, 20133 Mailand, Italien)</li>
+    <li>Univerzitetni Klinicni Center Ljublijana (Zaloška cesta 002, 1000 Ljubljana, Slowenien) in Kooperation mit Forma 3D Ltd. (Slomškova ulica 35, 1000 Ljubljana, Slowenien)
+    </li>
+    <li>Deutsche Sporthochschule Köln (Am Sportpark Muengersdorf 6, 50933 Cologne)</li>
+</ul>
+<br>
+En caso de dudas y para ejercer sus derechos del interesado, el equipo del estudio FORTEe de su centro de estudio
+está disponible: para ello, póngase en contacto utilizando los datos de contacto indicados en la información del
+estudio. También encontrará más información sobre el estudio FORTEe en los documentos del estudio que se le han
+entregado.
+<br><br>
+<b>Datos de contacto DSB (autoridad alemana para la protección de datos)</b>
+<br>
+Usted tiene el derecho a presentar una reclamación ante una autoridad de control de su elección. En el folleto
+informativo del estudio FORTEe también encontrará las autoridades de control competentes.`,
   },
 };

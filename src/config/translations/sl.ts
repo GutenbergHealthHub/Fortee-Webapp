@@ -1,113 +1,116 @@
 export default {
   authenticate: {
-    alternatively: '– or alternatively –',
-    continue: 'Proceed',
+    alternatively: '– ali alternativno  –',
+    continue: 'Nadaljuj',
     error: {
-      code_0: 'An error happened while establishing a network connection. Please try again later.',
-      code_401: 'The participation code was not recognized. Please verify that your input is correct.',
-      qr_format: 'Invalid QR code format. Please scan a valid code.',
+      code_0: 'Žal ni bilo mogoče vzpostaviti omrežne povezave. Prosimo, poizkusite znova pozneje.',
+      code_401: 'Žal vnesene kode za sodelovanje ni bilo mogoče prepoznati. Prosimo, preverite svoj vnos',
+      qr_format: 'Oblika zapisa optično prebrane kode QR žal ni veljavna. Optično preberite veljavno kodo.',
       qr_wrong_app:
-        'This QR code belongs to another app. Please verify that you have entered the correct internet address and open the correct app.',
+        'Optično prebrana koda QR je namenjena uporabi z neko drugo aplikacijo in ne to. Preverite spletni naslov, ki ste ga vnesli, in prikličite pravilno aplikacijo.',
     },
-    headline: 'Login',
+    headline: 'Prijava',
     infotext:
-      'Enter your participation code to proceed. In case your device is equipped with a camera and you have received a QR code, you can simply scan it instead of entering the code.',
-    input_label: 'Your participation code',
+      'Za nadaljevanje v besedilno polje vnesite kodo za sodelovanje. Če ste prejeli kodo QR in je vaša naprava opremljena s kamero, jo preprosto optično preberete. Če imate kakršna koli vprašanja, se obrnite na svoj študijski center FORTEe.',
+    input_label: 'Vaša koda za sodelovanje',
     stay_logged_in: {
-      checkbox: 'Stay logged in',
-      infotext: 'Do not choose this option in case you are using a public device.',
+      checkbox: 'Ostani prijavljen',
+      infotext: 'Te možnosti ne izberite, ko uporabljate javno napravo.',
     },
   },
   dashboard: {
     button: {
-      logout: 'Logout',
-      questionnaire: 'Open questionnaire',
-      report: 'Report symptoms',
+      logout: 'Odjava',
+      questionnaire: 'Izpolnjevanje vprašalnika',
+      report: 'Prijava simptomov',
     },
     headline: {
-      new_user: 'Welcome!',
-      returning_user: 'Welcome back!',
+      new_user: 'Dobrodošli!',
+      returning_user: 'Dobrodošli nazaj!',
     },
     infotext: {
       questionnaire_available: {
         first_text:
-          "This text is rendered in case that there is an unsubmitted questionnaire available. The questionnaire's deadline is",
-        second_text:
-          'This additional text is displayed in case that there is an unsubmitted questionnaire available.',
+          'Na voljo je vprašalnik, nov vprašalnik, ki ga morate izpolniti! Vprašalnik morate izpolniti do …',
+        second_text: 'Na voljo je vprašalnik, nov vprašalnik, ki ga morate izpolniti!',
       },
       questionnaire_not_available: {
         first_text:
-          'This text is rendered when there is no questionnaire available at the moment. The next questionnaire can be filled out starting at',
+          'Trenutno ni na voljo nobenega vprašalnika. Če imate kakršna koli vprašanja, se obrnite na svojo študijsko skupino FORTEe. Naslednji vprašalnik lahko izpolnite od …',
         second_text:
-          'This additional text is displayed in case there is no questionnaire available at the moment. Should you have symptoms, you can report this at any time.',
+          'Trenutno ni na voljo nobenega vprašalnika. Če imate kakršna koli vprašanja, se obrnite na svojo študijsko skupino FORTEe.',
       },
     },
   },
   navigation: {
-    contact: 'Contact',
+    contact: 'Stik',
     copyright_note: '© {{ year }} NUM compass',
-    dashboard: 'Overview',
+    dashboard: 'Pregled',
     faq: 'FAQ',
     imprint: 'Imprint',
-    logo: 'NUM compass web app',
-    logout: 'Logout',
-    privacy_policy: 'Privacy policy',
-    session_expired: 'Your session expired. Please log in again to proceed.',
-    terms_of_use: 'Terms of use',
+    logo: 'FORTEe compass web app',
+    logout: 'Odjava',
+    privacy_policy: 'Varstvo osebnih podatkov',
+    session_expired: 'Vaša seja je potekla. Za nadaljevanje se znova prijavite.',
+    terms_of_use: 'Pogoji uporabe',
     title: 'Menu',
   },
   notification_bar: {
-    dismiss_button: 'Close',
+    dismiss_button: 'Zapri',
   },
   questionnaire: {
-    overview: 'Go to overview',
-    back: 'Back',
+    back: 'Nazaj',
     confirm_submit: {
       error:
-        'An error happened while sending your answers. Please try it again at a later time. You may close your browser and proceed later without losing your answers.',
-      headline: 'Submit questionnaire',
-      infotext: 'You have answered all questions. By proceeding, your data will be submitted.',
+        'Pri pošiljanju vaših odgovorov je prišlo do napake. Poizkusite znova pozneje. Ne da bi izgubili svoje odgovore, lahko brskalnik zaprete in nadaljujete pozneje.',
+      headline: 'Pošlji vprašalnik',
+      infotext: 'Odgovorili ste na vsa vprašanja. Če nadaljujete, bodo vaši podatki poslani. Najlepša hvala!',
     },
-    continue: 'Proceed',
+    continue: 'Nadaljuj',
     date_input: {
-      error: 'Please verify your input.',
-      day: 'Day',
-      month: 'Month',
-      open_date_picker: 'Open a date picker',
-      year: 'Year',
+      error: 'Prosimo, preverite vnosno polje',
+      day: 'Dan',
+      month: 'Mesec',
+      open_date_picker: 'Odpri koledar',
+      year: 'Leto',
     },
-    dropdown_no_results: 'No results',
-    fetch_failed: 'An error happened while retrieving the questionnaire. Please try again later.',
-    fetch_retry: 'Retry',
-    finish: 'Return to overview',
-    group: 'Group {{ number }}',
-    infotext: 'This text is shown when the questionnaire does not contain information on its purpose.',
-    question: 'Question {{ number }}',
-    question_type_unsupported: 'Questions of type "{{ type }}" are not supported at the moment!',
+    dropdown_no_results: 'Ni rezultatov',
+    fetch_failed: 'Vprašalnika žal ni bilo mogoče pridobiti. Prosimo, poskusite pozneje.',
+    fetch_retry: 'Poskusite znova',
+    finish: 'Vrni se na pregled',
+    group: 'Skupina {{ number }}',
+    infotext: 'To besedilo se prikaže, ko vprašalnik ne vsebuje podatkov o namenu.',
+    question: 'Vprašajte {{ number }}',
+    question_type_unsupported: 'Vprašanja vrste "{{ type }}" trenutno žal niso podprta!',
     success: {
-      headline: 'Success',
-      infotext: 'Thank you for your contribution!',
+      headline: 'Najlepša hvala!',
+      infotext: 'Najlepša hvala za vaš prispevek!',
     },
   },
   report: {
     confirm_submit: {
-      back: 'Back',
-      continue: 'Submit',
-      error: 'Unfortunately an error happened. Please try again later.',
-      headline: 'Report symptoms',
-      infotext: 'You can report that you have symptoms. Click the button below to submit that information.',
+      back: 'Nazaj',
+      continue: 'Pošlji',
+      error: 'Na žalost se je pojavila napaka. Prosimo, poizkusite znova pozneje.',
+      headline: 'Prijava simptomov',
+      infotext: 'Če opažate simptome, lahko o tem poročate. Za oddajo podatkov kliknite na spodnji gumb.',
     },
     success: {
-      finish: 'Return to overview',
-      headline: 'Report symptoms',
-      infotext:
-        'You have successfully reported that you have symptoms. A new questionnaire will be provided to you shortly.',
+      finish: 'Nazaj na pregled',
+      headline: 'Prijava simptomov',
+      infotext: 'O tem, da imate simptome, ste uspešno poročali. Kmalu bo na voljo še en vprašalnik.',
     },
   },
   welcome: {
-    continue: 'Proceed',
-    headline: 'Welcome',
-    infotext: 'Here is the place for a short and informative introductory text about the app.',
+    continue: 'Naprej',
+    headline: 'Dobrodošli',
+    infotext: `Dobrodošli v spletni aplikaciji FORTEe!
+    <br>Tu lahko izpolnite svoje vprašalnike za študijo FORTEe.
+    <br>Upoštevajte naslednje napotke:
+    <br>Vaši podatki ne bodo shranjeni, vse dokler ne kliknete »Pošlji«. Zato je nadvse pomembno, da med delom z vprašalniki ne zaprete brskalnika. Če želite vprašanja urediti pozneje, lahko pustite okno brskalnika odprto in se vanj vrnete pozneje.
+    <br>Če na vprašanje ne morete ali ne želite odgovoriti, lahko vselej kliknete »Nadaljuj«, ne da bi kliknili eno od možnosti odgovora.
+    <br>Če ne želite izpolniti celotnega vprašalnika, ga lahko tudi preskočite.
+    <br>Z morebitnimi vprašanji se lahko kadarkoli obrnete na svoj študijski center FORTEe!`,
   },
   imprint: {
     headline: 'Imprint',
@@ -162,80 +165,90 @@ export default {
     `,
   },
   terms: {
-    headline: 'Terms of Use',
+    headline:
+      'Spletna aplikacija FORTEe je namenjena izključno uporabi v okviru študije FORTEe. Skladno s tem so do uporabe upravičeni izključno udeleženci študije FORTEe.',
     content:
-      'The use of the Fortee Webapp takes place exclusively within the framework of the Fortee study. Accordingly, only study participants of the Fortee study are entitled to use it.',
+      'Spletna aplikacija FORTEe je namenjena izključno uporabi v okviru študije FORTEe. Skladno s tem so do uporabe upravičeni izključno udeleženci študije FORTEe.',
   },
   privacy_policy: {
-    headline: 'Privacy policy',
-    content: `The web app can be accessed via the following secure website: https://fortee.izks-mainz.de/
+    headline: 'Varstvo osebnih podatkov',
+    content: `Dostop do spletne aplikacije je na voljo prek naslednje zaščitene spletne strani: <a href"https://fortee.izks-mainz.de">https://fortee.izks-mainz.de/</a>
     <br><br>
-    By using the Fortee Web App, questionnaires of the Fortee study can be completed and transmitted by study participants. The use takes place exclusively in the corresponding Internet browser of an internet-enabled terminal; no additional installation of software or any form of registration is required.
+    Z uporabo spletne aplikacije FORTEe lahko udeleženci študije izpolnite in oddate vprašalnike iz študije FORTEe. Aplikacija deluje izključno prek ustreznega internetnega brskalnika končne naprave, ki podpira internet; dodatna namestitev programske opreme ali kakršnakoli oblika registracije ni potrebna.
     <br><br>
-    The participant code required for registration includes an individual identification number (pseudonym) with which the data of the questionnaires are transmitted for storage. In this way, the data can be assigned to a study participant without establishing a direct link to the person-identifying data (e.g. name). The entered data is transmitted exclusively pseudonymised and encrypted and stored.
+    Za registracijo potrebna koda udeleženca vsebuje individualno identifikacijsko številko (psevdonim), s katero se podatki iz vprašalnikov posredujejo v hrambo. Tako je mogoče podatke dodeliti udeležencu študije, ne da bi se v ta namen vzpostavila neposredna povezava s podatki za osebno identifikacijo (npr. imenom). Vneseni podatki bodo posredovani in shranjeni samo v psevdonimni in šifrirani obliki. 
     <br><br>
-    Only the data entered in the user interface of the Webapp is transmitted, processed and stored. The processing takes place exclusively for the purposes described in the information document of the Forte study and on the basis of the consent given, which can be revoked informally at any time. The Fortee Webapp does not have access to personal data that is located on the user&rsquo;s terminal device. Also, no data on usage behavior is analysed. It is expressly pointed out that data for the creation of a profile for advertising purposes does not take place at any time.
+    Prenašajo, obdelujejo in shranjujejo se izključno tisti podatki, ki so vneseni v uporabniški vmesnik spletne aplikacije. Obdelava poteka izključno za namene, opisane v informativnem listu študije FORTEe, in na podlagi podane privolitve, ki jo lahko kadarkoli neformalno prekličete. Spletna aplikacija FORTEe nima dostopa do osebnih podatkov na uporabnikovi napravi. Podatki o vedenju uporabnikov prav tako niso predmet analiz. Izrecno poudarjamo, da se podatki v nobenem trenutku ne uporabljajo z namenom ustvarjanja profila v oglaševalske namene.
     <br><br>
-    The data transmission takes place by the user and cannot be undone after transmission. Also, no data retrieval is possible via the web app.
+    Prenos podatkov opravi uporabnik, po prenosu pa jih ni več mogoče razveljaviti. Prav tako prek spletne aplikacije ni mogoč priklic podatkov. 
     <br><br>
-    <b>Type of data</b>
+    <b>Vrsta podatkov</b>
     <ul>
-    <li>Identification number/pseudonym</li>
-    <li>Health data (questionnaire data on fatigue, quality of life, mental health, resilience and physical activity)</li>
-    <li>In the context of the use of the website: IP address and timestamp when accessing the website to maintain the functionality of the website. The legal basis for the processing is Art. 6 paragraph 1 lit. f) GDPR (&ldquo;legitimate interest&rdquo;). The data is deleted by default and automatically after 90 days.</li>
+    <li>Identifikacijska številka/psevdonim</li>
+    <li>Zdravstveni podatki (med drugim podatki iz vprašalnika o utrujenosti, kakovosti življenja, duševnem zdravju, vzdržljivosti in telesni dejavnosti)</li>
+    <li>V okviru uporabe spletnega mesta: naslov IP in časovni žig ob dostopu do spletnega mesta za vzdrževanje funkcionalnosti spletnega mesta. Pravno podlago za obdelavo predstavlja člen 6 (1) (f) GDPR (»zakoniti interes«). Podatki se po 90 dneh standardno in samodejno izbrišejo.</li>
     </ul>
     <br>
-    <b>Data Recipients</b>
+    <b>Prejemnik podatkov</b>
     <br>
-    University Medical Center Mainz, Department of Pediatric and Adolescent Medicine, Pediatric Hematology/Oncology/Hemostaseology (Langenbeckstraße 1, 55131 Mainz)
+    Univerzitetni klinični center Mainz,
+    klinika in poliklinika za pediatrično in mladostniško medicino,
+    pediatrično hematologijo/onkologijo/hemostazeologijo
+    (Universitätsmedizin Mainz,
+      Klinik und Poliklinik für Kinder- und Jugendmedizin,
+      Pädiatrische Hämatologie/Onkologie/Hämostaseologie, 
+      Langenbeckstraße 1, D-55131 Mainz)
     <br><br>
-    <b>Storage and deletion of data</b>
+    <b>Shranjevanje in brisanje podatkov </b>
     <br>
-    The study-related data will be deleted after 30 years at the latest.
+    Podatki, povezani s študijo, bodo izbrisani najpozneje po 30 letih.
     <br><br>
-    <b>Rights of Affected</b>
+    <b>Pravice oseb, na katere se nanašajo osebni podatki</b>
     <br>
-    <i>Right to information pursuant to Article 15 GDPR:</i>
-    You have the right to request information about whether and which personal data are processed by us.
-    <br><br>
-    <i>Right to rectification pursuant to Articles 16, 19 GDPR:</i>
-    You have the right to have incorrect personal data rectified about you.
-    <br><br>
-    <i>Right to erasure pursuant to Article 17, 19 GDPR:</i>
+    <i>Pravica do dostopa do informacij v skladu s 15. členom GDPR: </i>
     <br>
-    You have the right to request the deletion of your personal data.
+    Imate pravico od upravljavca dobiti potrditev, ali se v zvezi z vami obdelujejo osebni podatki. 
     <br><br>
-    <i>Right to restriction of processing pursuant to Articles 18, 19 GDPR:</i>
+    <i>Pravica do popravka v skladu s 16. in 19. členom GDPR: </i>
     <br>
-    You have the right to restrict the processing of personal data concerning you.
+    Imate pravico doseči, da upravljavec brez nepotrebnega odlašanja popravi netočne osebne podatke v zvezi z vami. 
     <br><br>
-    <i>Right to data portability according to Art. 20 GDPR:</i>
+    <i>Pravica do izbrisa v skladu s 17. in 19. členom GDPR: </i>
     <br>
-    You have the right to receive the personal data concerning you that you have provided to the data controllers for the study. This allows you to request that this data be transmitted to you or, where technically possible, to another body designated by you.
+    Imate pravico doseči, da upravljavec brez nepotrebnega odlašanja izbriše osebne podatke v zvezi z vami. 
     <br><br>
-    <i>Right of objection pursuant to Art. 21 GDPR:</i>
-    You have the right to object to the processing of your personal data.
-    <br><br>
-    <b>Responsible person</b>
+    <i>Pravica do omejitve obdelave v skladu z 18. in 19. členom GDPR:</i>
     <br>
-    For the processing of personal data, we are legally jointly responsible:
+    Imate pravico doseči, da upravljavec omeji obdelavo osebnih podatkov v zvezi z vami. 
+    <br><br>
+    <i>Pravica do prenosljivosti podatkov v skladu z 20. členom GDPR: </i>
+    <br>
+    Imate pravico, da prejmete osebne podatke v zvezi z vami, ki ste jih posredovali upravljavcu študije. S tem lahko zahtevate, da upravljavec v okviru tehničnih možnosti te podatke posreduje na drugo mesto, ki ga sami določite. 
+    <br><br>
+    <i>Pravica do ugovora v skladu z 21. členom GDPR: </i>
+    <br>
+    Imate pravico ugovarjati obdelavi osebnih podatkov v zvezi z vami.
+    <br><br>
+    <b>Upravljavec</b> 
+    Za obdelavo osebnih podatkov so pravno soodgovorni: 
     <ul>
-    <li>University Medical Center Mainz (Langenbeckstraße 1, 55131 Mainz)</li>
-    <li>University Hospital Heidelberg (In Neuenheimer Feld 672, 69120 Heidelberg)</li>
+    <li>Universitätsmedizin Mainz (Langenbeckstraße 1, 55131 Mainz)</li>
+    <li>Universitätsklinikum Heidelberg (In Neuenheimer Feld 672, 69120 Heidelberg)</li>
     <li>Centre de Lutte Contre le Cancer Leon Berard (Rue Laennec 28, 69373 Lyon, France)</li>
-    <li>Oxford Brookes University (Headington Campus Gipsy Lane, OX3 OPB Oxford, United Kingdom, UK)*</li>
-    <li>Fondazione Monza e Brianza per ll Bambino e La Sua Mamma (Via Pergolesi 33, 20052 Monza, Italy)</li>
-    <li>Hovedstaden Region (Kongens Vaenge 2, 3400 Hillerod, Denmark)</li>
-    <li>Universidad Europea de Madrid SL (Calle Tajo S/N, 28670 Villaviciosa, Spain)</li>
-    <li>Fondazione IRCCS Istituto Nazionale dei Tumori (Via Venezian 1, 20133 Milan, Italy)</li>
-    <li>Univerzitetni Klinicni Center Ljublijana (Zalo&scaron;ka cesta 002, 1000 Ljubljana, Slovenia) in cooperation with Forma 3D Ltd. (Slom&scaron;kova ulica 35, 1000 Ljubljana, Slovenia)</li>
-    <li>German Sports University Cologne (Am Sportpark Muengersdorf 6, 50933 Cologne)</li>
+    <li>Oxford Brookes University (Headington Campus Gipsy Lane, OX3 OPB Oxford, Vereinigtes Königreich, UK)*</li>
+    <li>Fondazione Monza e Brianza per ll Bambino e La Sua Mamma (Via Pergolesi 33, 20052 Monza, Italien)</li>
+    <li>Region Hovedstaden  (Kngens Vaenge 2, 3400 Hillerod, Dänemark)</li>
+    <li>Universidad Europea de Madrid SL (Calle Tajo S/N, 28670 Villaviciosa, Spanien)</li>
+    <li>Fondazione IRCCS Istituto Nazionale dei Tumori (Via Venezian 1, 20133 Mailand, Italien)</li>
+    <li>Univerzitetni Klinicni Center Ljublijana (Zaloška cesta 002, 1000 Ljubljana, Slowenien) in Kooperation mit Forma 3D Ltd. (Slomškova ulica 35, 1000 Ljubljana, Slowenien)
+    </li>
+    <li>Deutsche Sporthochschule Köln (Am Sportpark Muengersdorf 6, 50933 Cologne)</li>
     </ul>
     <br>
-    If you have any questions or questions about the implementation of your rights, the Fortee study team of your study centre is at your disposal: Please contact the contact details provided in the study information. Further information about the Fortee study can also be found in the study documents handed over to you.
+    Študijska ekipa FORTEe vašega študijskega centra vam bo z veseljem odgovorila na vsa vprašanja in uveljavila vaše pravice osebe, na katero se nanašajo osebni podatki: v ta namen uporabite kontaktne podatke, navedene v informacijah o študiji. Nadaljnje informacije o študiji FORTEe so vam na voljo tudi v dokumentih študije, ki ste jih prejeli.
     <br><br>
-    <b>Contact details DSB</b>
+    <b>Kontaktni podatki DSB</b>
     <br>
-    You have the right to lodge a complaint with a supervisory authority of your choice. The competent supervisory authority can also be found in the information document of the Fortee study.`,
+    Pravico imate do vložitve pritožbe pri informacijskem pooblaščencu po vaši izbiri. Pristojnega informacijskega pooblaščenca najdete tudi v informativnem listu študije FORTEe.`,
   },
 };

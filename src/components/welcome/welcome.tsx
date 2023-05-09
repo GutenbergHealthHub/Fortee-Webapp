@@ -10,7 +10,7 @@ export class Welcome {
   render() {
     return (
       <Card headline={stores.i18n.t('welcome.headline')}>
-        <p class="u-infotext">{stores.i18n.t('welcome.infotext')}</p>
+        <p class="u-infotext" innerHTML={stores.i18n.t('welcome.infotext')}></p>
 
         <ul class="u-list-reset">
           <li class="u-margin-top--normal">

@@ -3,22 +3,20 @@ export default {
     alternatively: '– oder alternativ –',
     continue: 'Fortfahren',
     error: {
-      code_0:
-        'Es konnte leider keine Netzwerkverbindung aufgebaut werden. Bitte versuchen Sie es später erneut.',
+      code_0: 'Es konnte leider keine Netzwerkverbindung aufgebaut werden. Bitte versuche es später erneut.',
       code_401:
-        'Der eingegebene Teilnahmecode konnte leider nicht erkannt werden. Bitte überprüfen Sie Ihre Eingabe.',
-      qr_format:
-        'Das Format des gescannten QR-Codes ist leider ungültig. Bitte scannen Sie einen gültigen Code ein.',
+        'Der eingegebene Teilnahmecode konnte leider nicht erkannt werden. Bitte überprüfe deine Eingabe',
+      qr_format: 'Das Format des gescannten QR-Codes ist leider ungültig. Bitte scanne einen gültigen Code ',
       qr_wrong_app:
-        'Der gescannte QR-Code ist zur Nutzung mit einer anderen App als dieser gedacht. Bitte prüfen Sie die eingegebene Internetadresse und rufen Sie die richtige App auf.',
+        'Der gescannte QR-Code ist zur Nutzung mit einer anderen App als dieser gedacht. Bitte prüfe die eingegebene Internetadresse und rufen die richtige App auf.',
     },
     headline: 'Anmelden',
     infotext:
-      'Geben Sie im Textfeld Ihren Teilnahmecode ein, um fortzufahren. Wenn Sie einen QR-Code erhalten haben und Ihr Endgerät über eine Kamera verfügt, können Sie diesen stattdessen einfach einscannen.',
-    input_label: 'Ihr Teilnahmecode',
+      'Bitte gib im Textfeld deinen Teilnahmecode ein, um fortzufahren. Wenn du einen QR-Code erhalten hast und dein Endgerät über eine Kamera verfügt, kannst du diesen stattdessen einfach einscannen. Bei Rückfragen wende dich bitte an dein FORTEe Studienzentrum.',
+    input_label: 'Dein Teilnahmecode',
     stay_logged_in: {
       checkbox: 'Angemeldet bleiben',
-      infotext: 'Wählen Sie diese Option nicht aus, wenn Sie ein öffentliches Gerät benutzen.',
+      infotext: 'Wähle diese Option nicht aus, wenn du ein öffentliches Gerät benutzt.',
     },
   },
   dashboard: {
@@ -34,15 +32,14 @@ export default {
     infotext: {
       questionnaire_available: {
         first_text:
-          'Dieser Text wird angezeigt, falls es einen verfügbaren Fragebogen gibt, der noch nicht beantwortet wurde. Der Fragebogen muss ausgefüllt werden bis zum',
-        second_text:
-          'Dieser weitere Text wird angezeigt, falls es einen verfügbaren Fragebogen gibt, der noch nicht beantwortet wurde.',
+          'Es steht ein Fragebogen ein neuer Fragebogen zum Ausfüllen zur Verfügung!. Der Fragebogen muss ausgefüllt werden bis zum …',
+        second_text: 'Es steht ein Fragebogen ein neuer Fragebogen zum Ausfüllen zur Verfügung!',
       },
       questionnaire_not_available: {
         first_text:
-          'Dieser Text wird angezeigt, wenn derzeit kein Fragebogen zum Ausfüllen zur Verfügung steht. Der nächste Fragebogen kann ausgefüllt werden ab dem',
+          'Derzeit steht kein Fragebogen zur Verfügung. Bei Rückfragen melde dich bitte bei deinem FORTEe Studienteam. Der nächste Fragebogen kann ausgefüllt werden ab dem …',
         second_text:
-          'Dieser weitere Text wird angezeigt, wenn derzeit kein Fragebogen zum Ausfüllen zur Verfügung steht. Wenn Sie Symptome haben, können Sie dies jederzeit melden.',
+          'Derzeit steht kein Fragebogen zur Verfügung. Bei Rückfragen melde dich bitte bei deinem FORTEe Studienteam.',
       },
     },
   },
@@ -52,10 +49,10 @@ export default {
     dashboard: 'Übersicht',
     faq: 'FAQ',
     imprint: 'Impressum',
-    logo: 'NUM compass web app',
+    logo: 'FORTEe web app',
     logout: 'Abmelden',
     privacy_policy: 'Datenschutzerklärung',
-    session_expired: 'Ihre Sitzung ist abgelaufen. Bitte melden Sie sich erneut an, um fortzufahren.',
+    session_expired: 'Deine Sitzung ist abgelaufen. Bitte melden dich sich erneut an, um fortzufahren.',
     terms_of_use: 'Nutzungsbedingungen',
     title: 'Menü',
   },
@@ -63,17 +60,16 @@ export default {
     dismiss_button: 'Schließen',
   },
   questionnaire: {
-    overview: 'Zur Übersicht',
     back: 'Zurück',
     confirm_submit: {
       error:
-        'Beim Senden Ihrer Antworten ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut. Sie können Ihren Browser schließen und später fortfahren, ohne Ihre Antworten zu verlieren.',
+        'Beim Senden deiner Antworten ist ein Fehler aufgetreten. Bitte versuchen es später erneut. Du kannst deinen Browser schließen und später fortfahren, ohne deine Antworten zu verlieren.',
       headline: 'Fragebogen absenden',
-      infotext: 'Sie haben alle Fragen beantwortet. Indem Sie fortfahren, werden Ihre Angaben übermittelt.',
+      infotext: 'Du hast alle Fragen beantwortet. Indem du fortfährst, werden deine Angaben übermittelt. ',
     },
     continue: 'Fortfahren',
     date_input: {
-      error: 'Bitte überprüfen Sie das Eingabefeld.',
+      error: 'Bitte überprüfe das Eingabefeld.',
       day: 'Tag',
       month: 'Monat',
       open_date_picker: 'Kalender öffnen',
@@ -81,7 +77,7 @@ export default {
     },
     dropdown_no_results: 'Keine Ergebnisse',
     fetch_failed:
-      'Der Fragebogen konnte leider nicht abgerufen werden. Bitte versuchen Sie es zu einem späteren Zeitpunkt erneut.',
+      'Der Fragebogen konnte leider nicht abgerufen werden. Bitte versuche es zu einem späteren Zeitpunkt erneut.',
     fetch_retry: 'Erneut versuchen',
     finish: 'Zur Übersicht zurückkehren',
     group: 'Gruppe {{ number }}',
@@ -90,17 +86,17 @@ export default {
     question_type_unsupported: 'Fragen vom Typ "{{ type }}" werden derzeit leider nicht unterstützt!',
     success: {
       headline: 'Vielen Dank!',
-      infotext: 'Vielen Dank für Ihren Beitrag!',
+      infotext: 'Vielen Dank für deinen Beitrag!',
     },
   },
   report: {
     confirm_submit: {
       back: 'Zurück',
       continue: 'Absenden',
-      error: 'Leider ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.',
+      error: 'Leider ist ein Fehler aufgetreten. Bitte versuche es später erneut.',
       headline: 'Symptome melden',
       infotext:
-        'Falls Sie Symptome haben, können Sie dies melden. Klicken Sie auf die nachfolgende Schaltfläche, um die Information zu übermitteln.',
+        'Falls du Symptome hast, kannst du dies melden. Klicke auf die nachfolgende Schaltfläche, um die Information zu übermitteln.',
     },
     success: {
       finish: 'Zur Übersicht zurückkehren',
@@ -112,7 +108,14 @@ export default {
   welcome: {
     continue: 'Weiter',
     headline: 'Willkommen',
-    infotext: 'Hier steht ein kurzer und informativer Einführungstext zur App.',
+    infotext: `Herzlich Willkommen bei der FORTEe-Webapp!
+    <br>Hier kannst du die Fragebögen für die FORTEe-Studie ausfüllen.
+    <br>Bitte beachte folgende Hinweise:
+    <br>Deine Daten werden erst gespeichert, wenn du auf „Übermitteln“ klickst. Deshalb ist es wichtig, dass du den Browser nicht schließt, während du die Fragebögen bearbeitest.
+    Möchtest du die Fragen zu einem späteren Zeitpunkt bearbeiten, kannst du das Browser Fenster geöffnet lassen und später wiederkommen.
+    <br>Wenn du eine Frage nicht beantworten kannst oder möchtest, kannst du jederzeit auf „Fortfahren“ klicken, ohne eine der Antwortmöglichkeiten anzuklicken.
+    <br>Wenn du einen kompletten Bogen nicht ausfüllen möchtest, kannst du diesen ebenfalls überspringen.
+    <br>Bei Rückfragen kannst du dich jederzeit an dein FORTEe Studienzentrum wenden!`,
   },
   imprint: {
     headline: 'Impressum',
@@ -240,12 +243,11 @@ export default {
       </li>
       <li>Deutsche Sporthochschule Köln (Am Sportpark Muengersdorf 6, 50933 Cologne)</li>
       </ul>
-      <br><br>
+      <br>
       Für Rückfragen sowie zur Umsetzung Ihrer Betroffenenrechte steht Ihnen das FORTEe-Studienteam ihres Studienzentrums gerne zur Verfügung: Wenden Sie sich dazu bitten an die in den Studieninformationen angegebenen Kontaktdaten. Weitere Informationen zur FORTEe Studie finden Sie ebenfalls in den an Sie ausgehändigten Studienunterlagen.
       <br><br>
       <b>Kontaktdaten DSB</b>
       <br>
-      Ihnen steht ein Beschwerderecht bei einer Aufsichtsbehörde Ihrer Wahl zu. Die zuständige Aufsichtsbehörde können Sie ebenfalls der Informationsschrift der FORTEe-Studie entnehmen.
-      `,
+      Ihnen steht ein Beschwerderecht bei einer Aufsichtsbehörde Ihrer Wahl zu. Die zuständige Aufsichtsbehörde können Sie ebenfalls der Informationsschrift der FORTEe-Studie entnehmen.`,
   },
 };

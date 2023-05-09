@@ -1,116 +1,121 @@
 export default {
   authenticate: {
-    alternatively: '– or alternatively –',
-    continue: 'Proceed',
+    alternatively: '–  eller alternativt  –',
+    continue: 'Fortsæt',
     error: {
-      code_0: 'An error happened while establishing a network connection. Please try again later.',
-      code_401: 'The participation code was not recognized. Please verify that your input is correct.',
-      qr_format: 'Invalid QR code format. Please scan a valid code.',
+      code_0: 'Der kunne desværre ikke oprettes netværksforbindelse. Forsøg igen senere.',
+      code_401: 'Den angivne deltagerkode blev desværre ikke genkendt. Kontroller din angivelse.',
+      qr_format: 'Formatet for den scannede QR-kode er desværre ugyldigt. Scan en gyldig kode.',
       qr_wrong_app:
-        'This QR code belongs to another app. Please verify that you have entered the correct internet address and open the correct app.',
+        'Den scannede QR-kode er tiltænkt at skulle anvendes sammen med en anden app. Kontroller den angivne internetadresse, og vælg den rigtige app.',
     },
-    headline: 'Login',
+    headline: 'Log på',
     infotext:
-      'Enter your participation code to proceed. In case your device is equipped with a camera and you have received a QR code, you can simply scan it instead of entering the code.',
-    input_label: 'Your participation code',
+      'Angiv din deltagerkode i tekstfeltet for at fortsætte. Hvis du har modtaget en QR-kode, og din enhed er udstyret med et kamera, er det også muligt at scanne den. Ved spørgsmål bedes du kontakte dit FORTEe-undersøgelsessted.',
+    input_label: 'Din deltagerkode',
     stay_logged_in: {
-      checkbox: 'Stay logged in',
-      infotext: 'Do not choose this option in case you are using a public device.',
+      checkbox: 'Bliv ved med at være logget på',
+      infotext: 'Vælg ikke denne valgmulighed, hvis du anvender en offentlig enhed.',
     },
   },
   dashboard: {
     button: {
-      logout: 'Logout',
-      questionnaire: 'Open questionnaire',
-      report: 'Report symptoms',
+      logout: 'Log af',
+      questionnaire: 'Udfyld spørgeskema',
+      report: 'Rapporter symptomer',
     },
     headline: {
-      new_user: 'Welcome!',
-      returning_user: 'Welcome back!',
+      new_user: 'Velkommen!!',
+      returning_user: 'Velkommen tilbage!',
     },
     infotext: {
       questionnaire_available: {
         first_text:
-          "This text is rendered in case that there is an unsubmitted questionnaire available. The questionnaire's deadline is",
-        second_text:
-          'This additional text is displayed in case that there is an unsubmitted questionnaire available.',
+          'Et nyt spørgeskema er klart til at blive udfyldt! Spørgeskemaet skal udfyldes inden den …',
+        second_text: 'Et nyt spørgeskema er klart til at blive udfyldt!',
       },
       questionnaire_not_available: {
         first_text:
-          'This text is rendered when there is no questionnaire available at the moment. The next questionnaire can be filled out starting at',
+          'Der er p.t. ingen spørgeskemaer. Ved spørgsmål bedes du kontakte dit FORTEe-undersøgelsesteam. Det er muligt at udfylde det næste spørgeskema fra den …',
         second_text:
-          'This additional text is displayed in case there is no questionnaire available at the moment. Should you have symptoms, you can report this at any time.',
+          'Der er p.t. ingen spørgeskemaer. Ved spørgsmål bedes du kontakte dit FORTEe-undersøgelsesteam.',
       },
     },
   },
   navigation: {
-    contact: 'Contact',
+    contact: 'Kontakt',
     copyright_note: '© {{ year }} NUM compass',
-    dashboard: 'Overview',
+    dashboard: 'Oversigt',
     faq: 'FAQ',
-    imprint: 'Imprint',
-    logo: 'NUM compass web app',
-    logout: 'Logout',
-    privacy_policy: 'Privacy policy',
-    session_expired: 'Your session expired. Please log in again to proceed.',
-    terms_of_use: 'Terms of use',
-    title: 'Menu',
+    imprint: 'Aftryk',
+    logo: 'FORTEe web app',
+    logout: 'Log af',
+    privacy_policy: 'Databeskyttelseserklæring ',
+    session_expired: 'Din session er udløbet. Log på igen for at fortsætte.',
+    terms_of_use: 'Vilkår for brug',
+    title: 'Menü',
   },
   notification_bar: {
-    dismiss_button: 'Close',
+    dismiss_button: 'Luk',
   },
   questionnaire: {
-    overview: 'Go to overview',
-    back: 'Back',
+    back: 'Tilbage',
     confirm_submit: {
       error:
-        'An error happened while sending your answers. Please try it again at a later time. You may close your browser and proceed later without losing your answers.',
-      headline: 'Submit questionnaire',
-      infotext: 'You have answered all questions. By proceeding, your data will be submitted.',
+        'Der opstod en fejl i forbindelse med afsendelsen af dine svar. Forsøg igen senere. Du kan lukke din browser og fortsætte senere, uden at dine svar går tabt.',
+      headline: 'Afsend spørgeskema',
+      infotext:
+        'Du har besvaret alle spørgsmål. Dine angivelse bliver overført, når du går videre. Tusind tak!',
     },
-    continue: 'Proceed',
+    continue: 'Fortsæt',
     date_input: {
-      error: 'Please verify your input.',
-      day: 'Day',
-      month: 'Month',
-      open_date_picker: 'Open a date picker',
-      year: 'Year',
+      error: 'Kontroller indtastningsfeltet',
+      day: 'Dag',
+      month: 'Måned',
+      open_date_picker: 'Åbn kalender',
+      year: 'År',
     },
-    dropdown_no_results: 'No results',
-    fetch_failed: 'An error happened while retrieving the questionnaire. Please try again later.',
-    fetch_retry: 'Retry',
-    finish: 'Return to overview',
+    dropdown_no_results: 'Ingen resultater',
+    fetch_failed:
+      'Det var desværre ikke muligt at indlæse spørgeskemaet. Forsøg igen på et senere tidspunkt.',
+    fetch_retry: 'Forsøg igen',
+    finish: 'Tilbage til oversigten',
     group: 'Group {{ number }}',
-    infotext: 'This text is shown when the questionnaire does not contain information on its purpose.',
-    question: 'Question {{ number }}',
-    question_type_unsupported: 'Questions of type "{{ type }}" are not supported at the moment!',
+    infotext: 'Denne tekst bliver vist, hvis spørgeskemaet ikke indeholder information om formålet.',
+    question: 'Spørgsmål {{ number }}',
+    question_type_unsupported: 'Spørgsmål af typen "{{ type }}" understøttes desværre ikke p.t.!',
     success: {
-      headline: 'Success',
-      infotext: 'Thank you for your contribution!',
+      headline: 'Tusind tak!',
+      infotext: 'Tusind tak for dit input!',
     },
   },
   report: {
     confirm_submit: {
-      back: 'Back',
-      continue: 'Submit',
-      error: 'Unfortunately an error happened. Please try again later.',
-      headline: 'Report symptoms',
-      infotext: 'You can report that you have symptoms. Click the button below to submit that information.',
+      back: 'Tilbage',
+      continue: 'Send',
+      error: 'Der opstod desværre en fejl. Forsøg igen senere.',
+      headline: 'Rapporter symptomer',
+      infotext:
+        'Hvis du har symptomer, kan du rapportere det her. Klik på knappen nedenfor for at overføre oplysningerne.',
     },
     success: {
-      finish: 'Return to overview',
-      headline: 'Report symptoms',
-      infotext:
-        'You have successfully reported that you have symptoms. A new questionnaire will be provided to you shortly.',
+      finish: 'Vend tilbage til oversigt',
+      headline: 'Rapporter symptomer',
+      infotext: 'Du har rapporteret, at du har symptomer. Der vil snart komme et spørgeskema mere.',
     },
   },
   welcome: {
-    continue: 'Proceed',
-    headline: 'Welcome',
-    infotext: 'Here is the place for a short and informative introductory text about the app.',
+    continue: 'Fortsæt',
+    headline: 'Velkommen',
+    infotext: `Velkommen til FORTEe-webappen!
+      <br>Her kan du udfylde spørgeskemaerne til FORTEe-undersøgelsen.
+      <br>Vær opmærksom på følgende:ßn Dine data bliver først gemt. når du klikker på „Overfør“. Derfor er det vigtigt, at du ikke lukker browseren, mens du arbejder på spørgeskemaerne. Du kan lade browservinduet være åbent, hvis du gerne vil redigere spørgsmålene på et senere tidspunkt.
+      <br>Hvis du ikke kan eller vil besvare et spørgsmål, kan du altid klikke på „Fortsæt“ uden at klikke på en af svarmulighederne.
+      <br>Hvis du ikke vil udfylde et helt spørgeskema, kan du ligeledes springe det over.
+      <br>Ved spørgsmål kan du altid kontakte FORTEes undersøgelsescenter!`,
   },
   imprint: {
-    headline: 'Imprint',
+    headline: 'Aftryk',
     content: `<b>Contact Details</b>
     <br>
     University Medicine of Johannes Gutenberg University Mainz
@@ -162,80 +167,86 @@ export default {
     `,
   },
   terms: {
-    headline: 'Terms of Use',
+    headline: 'Vilkår for brug',
     content:
-      'The use of the Fortee Webapp takes place exclusively within the framework of the Fortee study. Accordingly, only study participants of the Fortee study are entitled to use it.',
+      'Anvendelsen af FORTEe-webappen sker udelukkende inden for rammerne af FORTEe-undersøgelsen. Derfor er det ligeledes kun deltagere i FORTEe-undersøgelsen, der er berettiget til at anvende denne.',
   },
   privacy_policy: {
-    headline: 'Privacy policy',
-    content: `The web app can be accessed via the following secure website: https://fortee.izks-mainz.de/
+    headline: 'Databeskyttelseserklæring ',
+    content: `Webappen kan tilgås via følgende sikre webside: <a href="https://fortee.izks-mainz.de/">https://fortee.izks-mainz.de/</a>
     <br><br>
-    By using the Fortee Web App, questionnaires of the Fortee study can be completed and transmitted by study participants. The use takes place exclusively in the corresponding Internet browser of an internet-enabled terminal; no additional installation of software or any form of registration is required.
+    Med FORTEe-webappen kan undersøgelsesdeltagerne udfylde og overføre spørgeskemaer, der indgår i FORTEe-undersøgelsen. Anvendelse sker via en internetbrowser på en enhed med adgang til internettet, og der skal i denne forbindelse ikke installeres yderligere software eller ske yderligere registrering.
     <br><br>
-    The participant code required for registration includes an individual identification number (pseudonym) with which the data of the questionnaires are transmitted for storage. In this way, the data can be assigned to a study participant without establishing a direct link to the person-identifying data (e.g. name). The entered data is transmitted exclusively pseudonymised and encrypted and stored.
+    Deltagerkoden, der skal bruges til at logge på med, indeholder et individuelt identifikationsnummer (pseudonym), der bliver overført til lagring sammen med dataene i spørgeskemaet. På denne måde kan dataene relateres til en undersøgelsesdeltager uden at skabe nogen direkte kobling til de personidentificerende data (fx navn). De angivne data pseudonymiseres udelukkende samt overføres krypteret og lagres. 
     <br><br>
-    Only the data entered in the user interface of the Webapp is transmitted, processed and stored. The processing takes place exclusively for the purposes described in the information document of the Forte study and on the basis of the consent given, which can be revoked informally at any time. The Fortee Webapp does not have access to personal data that is located on the user&rsquo;s terminal device. Also, no data on usage behavior is analysed. It is expressly pointed out that data for the creation of a profile for advertising purposes does not take place at any time.
+    Det er udelukkende de data, der angives i webappens brugerflade, der overføres, behandles og lagres. Behandlingen sker udelukkende med de formål, der er beskrevet i informationsskriftet vedrørende FORTEe-undersøgelsen og på grundlag af det angivne samtykke, der til enhver tid kan tilbagekaldes uden anvendelse af en særlig formular. FORTEe-webappen har ikke adgang til personoplysninger, der er gemt på brugerens enhed. Der bliver endvidere ikke analyseret data om anvendelsesadfærd. Der gøres udtrykkeligt opmærksom på, at der på intet tidspunkt genereres data til oprettelse af en profil i markedsføringsøjemed.
+    Dataoverførslen iværksættes af brugeren og kan efter overførslen ikke tilbagekaldes. Det er ligeledes heller ikke muligt at kalde data frem via webappen. 
     <br><br>
-    The data transmission takes place by the user and cannot be undone after transmission. Also, no data retrieval is possible via the web app.
-    <br><br>
-    <b>Type of data</b>
+    <b>Former for data</b>
     <ul>
-    <li>Identification number/pseudonym</li>
-    <li>Health data (questionnaire data on fatigue, quality of life, mental health, resilience and physical activity)</li>
-    <li>In the context of the use of the website: IP address and timestamp when accessing the website to maintain the functionality of the website. The legal basis for the processing is Art. 6 paragraph 1 lit. f) GDPR (&ldquo;legitimate interest&rdquo;). The data is deleted by default and automatically after 90 days.</li>
-    </ul>
-    <br>
-    <b>Data Recipients</b>
-    <br>
-    University Medical Center Mainz, Department of Pediatric and Adolescent Medicine, Pediatric Hematology/Oncology/Hemostaseology (Langenbeckstraße 1, 55131 Mainz)
+    <li>Identifikationsnummer/pseduonym</li>
+    <li>Sundhedsdata (spørgeskemadata om blandt andet træthedsfølelse, livskvalitet, mental sundhed, resiliens/modstandskraft og fysisk aktivitet)</li>
+    <li>I forbindelse med anvendelse af websiden: IP-adresse og tidsstempel ved indlæsning af websiden til opretholdelse af websidens funktionsdygtighed. Det juridiske grundlag for behandlingen er baseret på art. 6, stk. 1, lit. f) i GDPR („berettiget interesse“). Dataene slettes som standard automatisk efter 90 dage.</li>
     <br><br>
-    <b>Storage and deletion of data</b>
+    <b>Datamodtager</b>
     <br>
-    The study-related data will be deleted after 30 years at the latest.
+    Universitätsmedizin Mainz,
+    Klinik und Poliklinik für Kinder- und Jugendmedizin,
+    Pädiatrische Hämatologie/Onkologie/Hämostaseologie
+    (Langenbeckstraße 1, 55131 Mainz, Tyskland)
     <br><br>
-    <b>Rights of Affected</b>
+    <b>Lagring og sletning af data</b>
     <br>
-    <i>Right to information pursuant to Article 15 GDPR:</i>
-    You have the right to request information about whether and which personal data are processed by us.
+    De undersøgelsesrelaterede data slettes senest efter 30 år.
     <br><br>
-    <i>Right to rectification pursuant to Articles 16, 19 GDPR:</i>
-    You have the right to have incorrect personal data rectified about you.
-    <br><br>
-    <i>Right to erasure pursuant to Article 17, 19 GDPR:</i>
+    <b>Rettigheder som berørt</b>
     <br>
-    You have the right to request the deletion of your personal data.
-    <br><br>
-    <i>Right to restriction of processing pursuant to Articles 18, 19 GDPR:</i>
+    <i>Ret til indsigt i henhold til artikel 15 i GDPR: </i>
     <br>
-    You have the right to restrict the processing of personal data concerning you.
+    Du har ret til at få information om, hvorvidt og hvilke personoplysninger vi behandler vedrørende dig. 
     <br><br>
-    <i>Right to data portability according to Art. 20 GDPR:</i>
+    <i>Ret til berigtigelse i henhold til artikel 16, 19 i GDPR: </i>
+    Du har ret til at få berigtiget ukorrekte personoplysninger, der vedrører dig. 
+    <br><br>
+    <i>Ret til sletning i henhold til artikel 17, 19 i GDPR: </i>
     <br>
-    You have the right to receive the personal data concerning you that you have provided to the data controllers for the study. This allows you to request that this data be transmitted to you or, where technically possible, to another body designated by you.
+    Du har ret til at få slettet de personoplysninger, der vedrører dig. 
     <br><br>
-    <i>Right of objection pursuant to Art. 21 GDPR:</i>
-    You have the right to object to the processing of your personal data.
-    <br><br>
-    <b>Responsible person</b>
+    <i>Ret til begrænsning af behandling i henhold til artikel 18, 19 i GDPR: </i>
     <br>
-    For the processing of personal data, we are legally jointly responsible:
+    Du har ret til at få begrænset behandlingen af de personoplysninger, der vedrører dig. 
+    <br><br>
+    <i>Ret til dataportabilitet i henhold til art. 20 i GDPR: </i>
+    <br>
+    Du har ret til at få udleveret de personoplysninger, der vedrører dig, som du har stillet til rådighed for de ansvarlige bag undersøgelsen. Dermed kan du rekvirere, at disse data enten udleveres til dig eller, så vidt det er teknisk muligt, overføres til et af dig angivet sted. 
+    <br><br>
+    <i>Ret til indsigelse i henhold til art. 21 i GDPR: </i>
+    <br>
+    Du har ret til at gøre indsigelse mod behandling af personoplysninger, der vedrører dig.
+    <br><br>
+    <b>Ansvarlig</b>
+    <br>
+    I fællesskab er følgende juridisk ansvarlige for behandlingen af personoplysninger: 
+    <br><br>
     <ul>
-    <li>University Medical Center Mainz (Langenbeckstraße 1, 55131 Mainz)</li>
-    <li>University Hospital Heidelberg (In Neuenheimer Feld 672, 69120 Heidelberg)</li>
+    <li>Universitätsmedizin Mainz (Langenbeckstraße 1, 55131 Mainz)</li>
+    <li>Universitätsklinikum Heidelberg (In Neuenheimer Feld 672, 69120 Heidelberg)</li>
     <li>Centre de Lutte Contre le Cancer Leon Berard (Rue Laennec 28, 69373 Lyon, France)</li>
-    <li>Oxford Brookes University (Headington Campus Gipsy Lane, OX3 OPB Oxford, United Kingdom, UK)*</li>
-    <li>Fondazione Monza e Brianza per ll Bambino e La Sua Mamma (Via Pergolesi 33, 20052 Monza, Italy)</li>
-    <li>Hovedstaden Region (Kongens Vaenge 2, 3400 Hillerod, Denmark)</li>
-    <li>Universidad Europea de Madrid SL (Calle Tajo S/N, 28670 Villaviciosa, Spain)</li>
-    <li>Fondazione IRCCS Istituto Nazionale dei Tumori (Via Venezian 1, 20133 Milan, Italy)</li>
-    <li>Univerzitetni Klinicni Center Ljublijana (Zalo&scaron;ka cesta 002, 1000 Ljubljana, Slovenia) in cooperation with Forma 3D Ltd. (Slom&scaron;kova ulica 35, 1000 Ljubljana, Slovenia)</li>
-    <li>German Sports University Cologne (Am Sportpark Muengersdorf 6, 50933 Cologne)</li>
+    <li>Oxford Brookes University (Headington Campus Gipsy Lane, OX3 OPB Oxford, Vereinigtes Königreich, UK)*</li>
+    <li>Fondazione Monza e Brianza per ll Bambino e La Sua Mamma (Via Pergolesi 33, 20052 Monza, Italien)</li>
+    <li>Region Hovedstaden  (Kngens Vaenge 2, 3400 Hillerod, Dänemark)</li>
+    <li>Universidad Europea de Madrid SL (Calle Tajo S/N, 28670 Villaviciosa, Spanien)</li>
+    <li>Fondazione IRCCS Istituto Nazionale dei Tumori (Via Venezian 1, 20133 Mailand, Italien)</li>
+    <li>Univerzitetni Klinicni Center Ljublijana (Zaloška cesta 002, 1000 Ljubljana, Slowenien) in Kooperation mit Forma 3D Ltd. (Slomškova ulica 35, 1000 Ljubljana, Slowenien)
+    </li>
+    <li>Deutsche Sporthochschule Köln (Am Sportpark Muengersdorf 6, 50933 Cologne)</li>
     </ul>
     <br>
-    If you have any questions or questions about the implementation of your rights, the Fortee study team of your study centre is at your disposal: Please contact the contact details provided in the study information. Further information about the Fortee study can also be found in the study documents handed over to you.
+    Kontakt FORTEe-undersøgelsesteamet ved spørgsmål samt ved anliggender vedrørende håndteringen af dine rettigheder som berørt: Se i den forbindelse kontaktoplysningerne, der fremgår af oplysningerne om undersøgelserne. Du kan ligeledes finde yderligere informationer om FORTEe-undersøgelsen i de undersøgelsesdokumenter, der er blevet udleveret til dig.
     <br><br>
-    <b>Contact details DSB</b>
+    <b>Kontaktoplysninger på databeskyttelsesansvarlig</b>
     <br>
-    You have the right to lodge a complaint with a supervisory authority of your choice. The competent supervisory authority can also be found in the information document of the Fortee study.`,
+    Du har ret til at klage til en tilsynsmyndighed efter eget valg. Den ansvarlige tilsynsmyndighed fremgår ligeledes af informationsmaterialet om FORTEe-undersøgelsen.
+    `,
   },
 };

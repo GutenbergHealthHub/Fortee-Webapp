@@ -164,61 +164,61 @@ export default {
   terms: {
     headline: 'Terms of Use',
     content:
-      'The use of the Fortee Webapp takes place exclusively within the framework of the Fortee study. Accordingly, only study participants of the Fortee study are entitled to use it.',
+      'The FORTEe web app is to be used exclusively within the framework of the FORTEe study. Accordingly, only participants of the FORTEe study are authorised to use the web app',
   },
   privacy_policy: {
     headline: 'Privacy policy',
-    content: `The web app can be accessed via the following secure website: https://fortee.izks-mainz.de/
+    content: `The web app is accessed via the following secure website: <a href="https://fortee.izks-mainz.de">https://fortee.izks-mainz.de/</a>
     <br><br>
-    By using the Fortee Web App, questionnaires of the Fortee study can be completed and transmitted by study participants. The use takes place exclusively in the corresponding Internet browser of an internet-enabled terminal; no additional installation of software or any form of registration is required.
+    Using the FORTEe web app, study participants can complete and send questionnaires of the FORTEe study. The web app is used only in the internet browser of a web-enabled device; no additional software installation or any form of registration are required.
     <br><br>
-    The participant code required for registration includes an individual identification number (pseudonym) with which the data of the questionnaires are transmitted for storage. In this way, the data can be assigned to a study participant without establishing a direct link to the person-identifying data (e.g. name). The entered data is transmitted exclusively pseudonymised and encrypted and stored.
+    The participant identification code required for registration contains an individual identification number (pseudonym) using which the data in the questionnaires is transmitted for storage. This allows the data to be assigned to a participant without establishing a direct link to the personal identifying data (e.g. name). The entered data is always transmitted and stored under a pseudonym and in encrypted form.
     <br><br>
-    Only the data entered in the user interface of the Webapp is transmitted, processed and stored. The processing takes place exclusively for the purposes described in the information document of the Forte study and on the basis of the consent given, which can be revoked informally at any time. The Fortee Webapp does not have access to personal data that is located on the user&rsquo;s terminal device. Also, no data on usage behavior is analysed. It is expressly pointed out that data for the creation of a profile for advertising purposes does not take place at any time.
+    Only the data entered in the user interface of the web app is transmitted, processed and stored. Processing is performed exclusively for the purposes described in the information document regarding the FORTEe study and on the basis of the given consent, which can be withdrawn informally at any time. The FORTEe web app cannot access personal data that is stored on the user's end device. Furthermore, no data regarding user behaviour is analysed. It is expressly pointed out that no data for generating a profile for advertising purposes is collected at any time.
     <br><br>
-    The data transmission takes place by the user and cannot be undone after transmission. Also, no data retrieval is possible via the web app.
+    Data transmission is initiated by the user and cannot be reversed once the data has been transmitted. Furthermore, it is not possible to retrieve data via the web app. 
     <br><br>
     <b>Type of data</b>
     <ul>
     <li>Identification number/pseudonym</li>
-    <li>Health data (questionnaire data on fatigue, quality of life, mental health, resilience and physical activity)</li>
-    <li>In the context of the use of the website: IP address and timestamp when accessing the website to maintain the functionality of the website. The legal basis for the processing is Art. 6 paragraph 1 lit. f) GDPR (&ldquo;legitimate interest&rdquo;). The data is deleted by default and automatically after 90 days.</li>
+    <li>Data transmission is initiated by the user and cannot be reversed once the data has been transmitted. Furthermore, it is not possible to retrieve data via the web app.</li>
+    <li>During use of the website: IP address and timestamp when the website was called, in order to maintain the functionality of the website. The legal basis for processing is Art. 6, Sect. 1(f) GDPR ("legitimate interest"). The data is erased by default and in an automated process after 90 days.</li>
     </ul>
     <br>
-    <b>Data Recipients</b>
+    <b>Data Recipient</b>
     <br>
-    University Medical Center Mainz, Department of Pediatric and Adolescent Medicine, Pediatric Hematology/Oncology/Hemostaseology (Langenbeckstraße 1, 55131 Mainz)
+    Universitätsmedizin Mainz, Klinik und Poliklinik für Kinder- und Jugendmedizin, Pädiatrische Hämatologie/Onkologie/Hämostaseologie – University Medical Centre Mainz, Clinic and Polyclinic for Children and Youth Medicine, Paediatric Haematology/Oncology/Haemostaseology (Langenbeckstr. 1, 55131 Mainz, Germany)
     <br><br>
     <b>Storage and deletion of data</b>
     <br>
-    The study-related data will be deleted after 30 years at the latest.
+    The study-related data is erased at the latest after 30 yearst.
     <br><br>
-    <b>Rights of Affected</b>
+    <b>Rights of the persons concerned</b>
     <br>
-    <i>Right to information pursuant to Article 15 GDPR:</i>
-    You have the right to request information about whether and which personal data are processed by us.
+    <i>Right of access to information in accordance with Art. 15 GDPR:</i>
+    You have the right to request information as to whether and which personal data is processed by us. 
     <br><br>
-    <i>Right to rectification pursuant to Articles 16, 19 GDPR:</i>
-    You have the right to have incorrect personal data rectified about you.
+    <i>Right to rectification in accordance with Art. 16, 19 GDPR: </i>
+    You have the right to obtain rectification of incorrect personal data concerning you
     <br><br>
-    <i>Right to erasure pursuant to Article 17, 19 GDPR:</i>
+    <i>Right to erasure in accordance with Art. 17, 19 GDPR: </i>
     <br>
-    You have the right to request the deletion of your personal data.
+    You have the right to request the erasure of the personal data concerning you. 
     <br><br>
-    <i>Right to restriction of processing pursuant to Articles 18, 19 GDPR:</i>
+    <i>Right to restriction of processing in accordance with Art. 18, 19 GDPR: </i>
     <br>
-    You have the right to restrict the processing of personal data concerning you.
+    You have the right to restrict the processing of the personal data concerning you.
     <br><br>
-    <i>Right to data portability according to Art. 20 GDPR:</i>
+    <i>Right to data portability in accordance with Art. 20 GDPR: :</i>
     <br>
-    You have the right to receive the personal data concerning you that you have provided to the data controllers for the study. This allows you to request that this data be transmitted to you or, where technically possible, to another body designated by you.
+    You have the right to receive the personal data concerning you, which you provided to the person responsible for the study. You can therefore request that this data be transmitted either to you or, if technically possible, to a different recipient that you have specified.
     <br><br>
-    <i>Right of objection pursuant to Art. 21 GDPR:</i>
-    You have the right to object to the processing of your personal data.
+    <i>Right to object in accordance with Art. 21 GDPR:</i>
+    You have the right to object to processing of the personal data concerning you.
     <br><br>
-    <b>Responsible person</b>
+    <b>Institutes responsible</b>
     <br>
-    For the processing of personal data, we are legally jointly responsible:
+    The following institutes share legal responsibility for processing of the personal data:
     <ul>
     <li>University Medical Center Mainz (Langenbeckstraße 1, 55131 Mainz)</li>
     <li>University Hospital Heidelberg (In Neuenheimer Feld 672, 69120 Heidelberg)</li>
@@ -228,14 +228,14 @@ export default {
     <li>Hovedstaden Region (Kongens Vaenge 2, 3400 Hillerod, Denmark)</li>
     <li>Universidad Europea de Madrid SL (Calle Tajo S/N, 28670 Villaviciosa, Spain)</li>
     <li>Fondazione IRCCS Istituto Nazionale dei Tumori (Via Venezian 1, 20133 Milan, Italy)</li>
-    <li>Univerzitetni Klinicni Center Ljublijana (Zalo&scaron;ka cesta 002, 1000 Ljubljana, Slovenia) in cooperation with Forma 3D Ltd. (Slom&scaron;kova ulica 35, 1000 Ljubljana, Slovenia)</li>
+    <li>Univerzitetni Klinicni Center Ljublijana (Zaloška cesta 002, 1000 Ljubljana, Slovenia) in cooperation with Forma 3D Ltd. (Slomškova ulica 35, 1000 Ljubljana, Slovenia)</li>
     <li>German Sports University Cologne (Am Sportpark Muengersdorf 6, 50933 Cologne)</li>
     </ul>
     <br>
-    If you have any questions or questions about the implementation of your rights, the Fortee study team of your study centre is at your disposal: Please contact the contact details provided in the study information. Further information about the Fortee study can also be found in the study documents handed over to you.
-    <br><br>
-    <b>Contact details DSB</b>
+    If you have queries or you wish to implement the rights as listed under "Rights of the persons concerned", contact the FORTEe study team of your study centre: Please refer to the contact data given in the study information. Further information on the FORTEe study can also be found in the study documentation that you received.    <br><br>
+    <b>Contact data of DSB (German Data Protection Authority)
+    </b>
     <br>
-    You have the right to lodge a complaint with a supervisory authority of your choice. The competent supervisory authority can also be found in the information document of the Fortee study.`,
+    You are entitled to exercise your right of appeal at a supervisory authority of your choice. You will also find the responsible supervisory authority in the information document regarding the FORTEe study.`,
   },
 };
