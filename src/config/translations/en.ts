@@ -49,7 +49,7 @@ export default {
     dashboard: 'Overview',
     faq: 'FAQ',
     imprint: 'Imprint',
-    logo: 'NUM compass web app',
+    logo: 'FORTEe web app',
     logout: 'Logout',
     privacy_policy: 'Privacy policy',
     session_expired: 'Your session expired. Please log in again to proceed.',

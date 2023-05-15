@@ -229,20 +229,20 @@ export default {
     <br>
     Imate pravico ugovarjati obdelavi osebnih podatkov v zvezi z vami.
     <br><br>
-    <b>Upravljavec</b> 
+    <b>Upravljavec</b>
+    <br>
     Za obdelavo osebnih podatkov so pravno soodgovorni: 
     <ul>
-    <li>Universitätsmedizin Mainz (Langenbeckstraße 1, 55131 Mainz)</li>
-    <li>Universitätsklinikum Heidelberg (In Neuenheimer Feld 672, 69120 Heidelberg)</li>
-    <li>Centre de Lutte Contre le Cancer Leon Berard (Rue Laennec 28, 69373 Lyon, France)</li>
-    <li>Oxford Brookes University (Headington Campus Gipsy Lane, OX3 OPB Oxford, Vereinigtes Königreich, UK)*</li>
-    <li>Fondazione Monza e Brianza per ll Bambino e La Sua Mamma (Via Pergolesi 33, 20052 Monza, Italien)</li>
-    <li>Region Hovedstaden  (Kngens Vaenge 2, 3400 Hillerod, Dänemark)</li>
-    <li>Universidad Europea de Madrid SL (Calle Tajo S/N, 28670 Villaviciosa, Spanien)</li>
-    <li>Fondazione IRCCS Istituto Nazionale dei Tumori (Via Venezian 1, 20133 Mailand, Italien)</li>
-    <li>Univerzitetni Klinicni Center Ljublijana (Zaloška cesta 002, 1000 Ljubljana, Slowenien) in Kooperation mit Forma 3D Ltd. (Slomškova ulica 35, 1000 Ljubljana, Slowenien)
-    </li>
-    <li>Deutsche Sporthochschule Köln (Am Sportpark Muengersdorf 6, 50933 Cologne)</li>
+    <li>Univerzitetni klinični center Mainz (Universitätsmedizin Mainz, Langenbeckstraße 1, D-55131 Mainz)</li>
+    <li>Univerzitetna klinika Heidelberg (Universitätsklinikum Heidelberg, In Neuenheimer Feld 672, D-69120 Heidelberg)</li>
+    <li>Center za boj proti raku Leon Berard (Centre de Lutte Contre le Cancer Leon Berard, Rue Laennec 28, F-69373 Lyon, Francija) </li>
+    <li>Univerza Brookes v Oxfordu (Oxford Brookes University Headington Campus Gipsy Lane, OX3 OPB Oxford, Združeno kraljestvo)* </li>
+    <li>Sklad Monza in Brianza za otroka in njegovo mamo (Fondazione Monza e Brianza per ll Bambino e La Sua Mamma, Via Pergolesi 33, I-20052 Monza, Italija) </li>
+    <li>Regija Hovedstaden (Kongens Vaenge 2, DK-3400 Hillerod, Danska) </li>
+    <li>Evropska univerza v Madridu (Universidad Europea de Madrid SL Calle Tajo S/N, E-28670 Villaviciosa, Španija) </li>
+    <li>Sklad IRCCS Nacionalni institut za tumorje (Fondazione IRCCS Istituto Nazionale dei Tumori, Via Venezian 1, I-20133 Milan, Italija) </li>
+    <li>Univerzitetni klinični center Ljubljana (Zaloška cesta 002, SI-1000 Ljubljana, Slovenija) v sodelovanju s Forma 3D Ltd. (Slomškova ulica 35, SI-1000 Ljubljana, Slovenija)</li>
+    <li>Nemška Visoka šola športa Köln (Deutsche Sporthochschule Köln, Am Sportpark, Muengersdorf 6, D-50933 Köln)</li>
     </ul>
     <br>
     Študijska ekipa FORTEe vašega študijskega centra vam bo z veseljem odgovorila na vsa vprašanja in uveljavila vaše pravice osebe, na katero se nanašajo osebni podatki: v ta namen uporabite kontaktne podatke, navedene v informacijah o študiji. Nadaljnje informacije o študiji FORTEe so vam na voljo tudi v dokumentih študije, ki ste jih prejeli.

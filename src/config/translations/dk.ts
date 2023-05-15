@@ -229,17 +229,17 @@ export default {
     I fællesskab er følgende juridisk ansvarlige for behandlingen af personoplysninger: 
     <br><br>
     <ul>
-    <li>Universitätsmedizin Mainz (Langenbeckstraße 1, 55131 Mainz)</li>
-    <li>Universitätsklinikum Heidelberg (In Neuenheimer Feld 672, 69120 Heidelberg)</li>
-    <li>Centre de Lutte Contre le Cancer Leon Berard (Rue Laennec 28, 69373 Lyon, France)</li>
-    <li>Oxford Brookes University (Headington Campus Gipsy Lane, OX3 OPB Oxford, Vereinigtes Königreich, UK)*</li>
-    <li>Fondazione Monza e Brianza per ll Bambino e La Sua Mamma (Via Pergolesi 33, 20052 Monza, Italien)</li>
-    <li>Region Hovedstaden  (Kngens Vaenge 2, 3400 Hillerod, Dänemark)</li>
-    <li>Universidad Europea de Madrid SL (Calle Tajo S/N, 28670 Villaviciosa, Spanien)</li>
-    <li>Fondazione IRCCS Istituto Nazionale dei Tumori (Via Venezian 1, 20133 Mailand, Italien)</li>
-    <li>Univerzitetni Klinicni Center Ljublijana (Zaloška cesta 002, 1000 Ljubljana, Slowenien) in Kooperation mit Forma 3D Ltd. (Slomškova ulica 35, 1000 Ljubljana, Slowenien)
-    </li>
-    <li>Deutsche Sporthochschule Köln (Am Sportpark Muengersdorf 6, 50933 Cologne)</li>
+    <li>Universitätsmedizin Mainz (Langenbeckstraße 1, 55131 Mainz, Tyskland)</li>
+    <li>Universitätsklinikum Heidelberg (In Neuenheimer Feld 672, 69120 Heidelberg, Tyskland)</li>
+    <li>Centre de Lutte Contre le Cancer Leon Berard (Rue Laennec 28, 69373 Lyon, Frankrig)</li> 
+    <li>Oxford Brookes University (Headington Campus Gipsy Lane, OX3 OPB Oxford, Det forenede Kongerige, Storbritannien)* </li>
+    <li>Fondazione Monza e Brianza per ll Bambino e La Sua Mamma (Via Pergolesi 33, 20052 Monza, Italien) </li>
+    <li>Region Hovedstaden (Kongens Vænge 2, 3400 Hillerød, Danmark) </li>
+    <li>Universidad Europea de Madrid SL (Calle Tajo S/N, 28670 Villaviciosa, Spanien) </li>
+    <li>Fondazione IRCCS Istituto Nazionale dei Tumori (Via Venezian 1, 20133 Milano, Italien) </li>
+    <li>Univerzitetni Klinicni Center Ljublijana (Zaloška cesta 002, 1000 Ljubljana, Slovenien) i samarbejde med Forma 3D Ltd. (Slomškova ulica 35, 1000 Ljubljana, Slovenien)</li>
+    <li>Deutsche Sporthochschule Köln (Am Sportpark Muengersdorf 6, 50933 Köln, Tyskland)</li>
+    <li>Deutsche Sporthochschule Köln (Am Sportpark Muengersdorf 6, 50933 Cologne)</li></li>
     </ul>
     <br>
     Kontakt FORTEe-undersøgelsesteamet ved spørgsmål samt ved anliggender vedrørende håndteringen af dine rettigheder som berørt: Se i den forbindelse kontaktoplysningerne, der fremgår af oplysningerne om undersøgelserne. Du kan ligeledes finde yderligere informationer om FORTEe-undersøgelsen i de undersøgelsesdokumenter, der er blevet udleveret til dig.

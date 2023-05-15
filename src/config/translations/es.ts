@@ -1,113 +1,115 @@
 export default {
   authenticate: {
-    alternatively: '– or alternatively –',
-    continue: 'Proceed',
+    alternatively: '– o alternativa –',
+    continue: 'Continuar',
     error: {
-      code_0: 'An error happened while establishing a network connection. Please try again later.',
-      code_401: 'The participation code was not recognized. Please verify that your input is correct.',
-      qr_format: 'Invalid QR code format. Please scan a valid code.',
+      code_0: 'No se ha podido establecer ninguna conexión de red. Vuelve a intentarlo más tarde.',
+      code_401:
+        'Desafortunadamente, no se ha podido reconocer el código de participante indicado. Compruebe que sea correcto',
+      qr_format:
+        'Desafortunadamente, el formato del código QR escaneado no es válido. Escanee un código válido.',
       qr_wrong_app:
-        'This QR code belongs to another app. Please verify that you have entered the correct internet address and open the correct app.',
+        'El código QR escaneado está concebido para otra aplicación. Compruebe la dirección de internet introducida y acceda a la aplicación correcta.',
     },
-    headline: 'Login',
+    headline: 'Iniciar sesión',
     infotext:
-      'Enter your participation code to proceed. In case your device is equipped with a camera and you have received a QR code, you can simply scan it instead of entering the code.',
-    input_label: 'Your participation code',
+      'Introduce tu código de participante en el campo de texto para continuar. Si has recibido un código QR y tu dispositivo móvil dispone de cámara, puedes simplemente escanear el código. En caso de dudas, ponte en contacto con tu centro de estudio FORTEe',
+    input_label: 'Tu código de participante',
     stay_logged_in: {
-      checkbox: 'Stay logged in',
-      infotext: 'Do not choose this option in case you are using a public device.',
+      checkbox: 'Permanecer conectado',
+      infotext: 'No elijas esta opción si utilizas un dispositivo público.',
     },
   },
   dashboard: {
     button: {
-      logout: 'Logout',
-      questionnaire: 'Open questionnaire',
-      report: 'Report symptoms',
+      logout: 'Cerrar sesión',
+      questionnaire: 'Completar cuestionario',
+      report: 'Notificar síntomas',
     },
     headline: {
-      new_user: 'Welcome!',
-      returning_user: 'Welcome back!',
+      new_user: 'Bienvenido/a!',
+      returning_user: 'Bienvenido/a de nuevo',
     },
     infotext: {
       questionnaire_available: {
         first_text:
-          "This text is rendered in case that there is an unsubmitted questionnaire available. The questionnaire's deadline is",
-        second_text:
-          'This additional text is displayed in case that there is an unsubmitted questionnaire available.',
+          'Hay disponible un cuestionario/un nuevo cuestionario para completar. El cuestionario se debe completar hasta el…',
+        second_text: 'Hay disponible un cuestionario/un nuevo cuestionario para completar.',
       },
       questionnaire_not_available: {
         first_text:
-          'This text is rendered when there is no questionnaire available at the moment. The next questionnaire can be filled out starting at',
+          'Actualmente no hay ningún cuestionario disponible. En caso de dudas, ponte en contacto con tu equipo de estudio FORTEe. El próximo cuestionario se podrá completar a partir del…',
         second_text:
-          'This additional text is displayed in case there is no questionnaire available at the moment. Should you have symptoms, you can report this at any time.',
+          'Actualmente no hay ningún cuestionario disponible. En caso de dudas, ponte en contacto con tu equipo de estudio FORTEe.',
       },
     },
   },
   navigation: {
-    contact: 'Contact',
+    contact: 'Datos de contacto',
     copyright_note: '© {{ year }} NUM compass',
-    dashboard: 'Overview',
+    dashboard: 'Visión general',
     faq: 'FAQ',
     imprint: 'Imprimir',
-    logo: 'NUM compass web app',
-    logout: 'Logout',
-    privacy_policy: 'Política de privacidad ',
-    session_expired: 'Your session expired. Please log in again to proceed.',
+    logo: 'FORTEe web app',
+    logout: 'Cerrar sesión',
+    privacy_policy: 'Política de privacidad',
+    session_expired: 'Tu sesión ha expirado. Vuelve a iniciar sesión para continuar.',
     terms_of_use: 'Condiciones de uso',
     title: 'Menu',
   },
   notification_bar: {
-    dismiss_button: 'Close',
+    dismiss_button: 'Cerrar',
   },
   questionnaire: {
-    overview: 'Go to overview',
-    back: 'Back',
+    back: 'Atrás ',
     confirm_submit: {
       error:
-        'An error happened while sending your answers. Please try it again at a later time. You may close your browser and proceed later without losing your answers.',
-      headline: 'Submit questionnaire',
-      infotext: 'You have answered all questions. By proceeding, your data will be submitted.',
+        'Al enviar tus respuestas se ha producido un error. Vuelve a intentarlo más tarde. Puedes cerrar tu navegador web y continuar más tarde sin perder las respuestas.',
+      headline: 'Enviar cuestionario',
+      infotext: 'Has respondido todas las preguntas. Al continuar se transmitirán tus datos. Muchas gracias.',
     },
-    continue: 'Proceed',
+    continue: 'Continuar',
     date_input: {
-      error: 'Please verify your input.',
-      day: 'Day',
-      month: 'Month',
-      open_date_picker: 'Open a date picker',
-      year: 'Year',
+      error: 'Comprueba el campo de entrada',
+      day: 'Día',
+      month: 'Mes',
+      open_date_picker: 'Abrir calendario',
+      year: 'Año',
     },
-    dropdown_no_results: 'No results',
-    fetch_failed: 'An error happened while retrieving the questionnaire. Please try again later.',
-    fetch_retry: 'Retry',
-    finish: 'Return to overview',
-    group: 'Group {{ number }}',
-    infotext: 'This text is shown when the questionnaire does not contain information on its purpose.',
-    question: 'Question {{ number }}',
-    question_type_unsupported: 'Questions of type "{{ type }}" are not supported at the moment!',
+    dropdown_no_results: 'Sin resultados',
+    fetch_failed: 'No se ha podido abrir el cuestionario. Vuelve a intentarlo más tarde.',
+    fetch_retry: 'Volver a intentarlo',
+    finish: 'Volver a la visión general',
+    group: 'Grupo  {{ number }}',
+    infotext: 'Este texto se muestra cuando el cuestionario no contiene información sobre su finalidad.',
+    question: 'Pregunta {{ number }}',
+    question_type_unsupported: 'Actualmente, las preguntas del tipo «{{ type }}» no se admiten.',
     success: {
-      headline: 'Success',
-      infotext: 'Thank you for your contribution!',
+      headline: 'Muchas gracias.',
+      infotext: 'Muchas gracias por tu participación.',
     },
   },
   report: {
     confirm_submit: {
-      back: 'Back',
-      continue: 'Submit',
-      error: 'Unfortunately an error happened. Please try again later.',
-      headline: 'Report symptoms',
-      infotext: 'You can report that you have symptoms. Click the button below to submit that information.',
+      back: 'Atrás',
+      continue: 'Enviar',
+      error: 'Se ha producido un error. Vuelve a intentarlo más tarde.',
+      headline: 'Notificar síntomas',
+      infotext:
+        'Si tienes síntomas, puedes notificarlos. Haz clic en el siguiente botón para transmitir la información.',
     },
     success: {
-      finish: 'Return to overview',
-      headline: 'Report symptoms',
+      finish: 'Volver a la visión general',
+      headline: 'Notificar síntomas',
       infotext:
-        'You have successfully reported that you have symptoms. A new questionnaire will be provided to you shortly.',
+        'Has notificado correctamente que tienes síntomas. Próximamente habrá disponible otro cuestionario.',
     },
   },
   welcome: {
-    continue: 'Proceed',
-    headline: 'Welcome',
-    infotext: 'Here is the place for a short and informative introductory text about the app.',
+    continue: 'Siguiente',
+    headline: 'Bienvenido/a',
+    infotext:
+      'Te damos la bienvenida a la aplicación web FORTEe. <br>Aquí puedes completar los cuestionarios para el estudio FORTEe. <br>Observa las siguientes indicaciones: <br>Tus datos se guardarán cuando hagas clic en «Enviar». Por tanto, es importante que no cierres el navegador web mientras estés completando los cuestionarios. Si quieres seguir respondiendo las preguntas más tarde, puedes dejar la ventana del navegador web abierta y volver más tarde. <br>Si hay alguna pregunta que no puedes o no quieres responder, en cualquier momento puedes hacer clic en «Continuar» sin marcar ninguna de las opciones de respuesta.<br>En el caso de que no quieras completar un cuestionario completo, también puedes saltártelo. <br>Si tienes dudas, puedes contactar en cualquier momento con tu centro de estudio FORTEe.',
   },
   imprint: {
     headline: 'Imprimir',
@@ -191,8 +193,8 @@ export default {
     El usuario transmite los datos y, tras hacerlo, esta acción no puede revertirse. A través de la aplicación web
     tampoco se puede acceder a los datos.
     <br><br>
-    <i>Tipo de datos</i>
-<ul>
+    <b>Tipo de datos</b>
+    <ul>
     <li>Número de identificación/pseudónimo</li>
     <li>Datos de salud (datos de cuestionario: entre otros, fatiga, calidad de vida, salud mental, resiliencia y
         actividad
@@ -201,70 +203,69 @@ export default {
         mantenimiento y la funcionalidad de la página web. La base jurídica para el procesamiento es el art. 6 pár. 1
         letra f) del RGPD («interés legítimo»). Los datos se borran por defecto y automáticamente transcurridos 90 días.
     </li>
-</ul>
-<br>
-<b>Receptor de los datos</b>
-<br>
-Universitätsmedizin Mainz, Klinik und Poliklinik für Kinder- und Jugendmedizin, Pädiatrische
-Hämatologie/Onkologie/Hämostaseologie (Langenbeckstraße 1, 55131 Mainz)
-<br><br>
-<b>Almacenamiento y borrado de los datos</b>
-<br>
-Los datos asociados al estudio se borran transcurridos 30 años a más tardar.
-<br><br>
-<b>Derechos de las personas afectadas</b>
-<br><br>
-<i>Derecho de acceso según el artículo 15 del RGPD:</i>
-Usted tiene el derecho de recibir nuestra confirmación de si hemos tratado o no datos personales que le conciernen y, en
-tal caso, información sobre cuáles son estos datos.
-<br><br>
-<i>Derecho de rectificación según los artículos 16 y 19 del RGPD:</i>
-<br>
-Usted tiene el derecho de solicitar la rectificación de los datos personales que no sean correctos.
-<br><br>
-<i>Derecho de supresión según los artículos 17 y 19 del RGPD:</i>
-<br>
-Usted tiene el derecho de solicitar el borrado de los datos personales que le conciernen.
-<br><br>
-<i>Derecho a la limitación del tratamiento según los artículos 18 y 19 del RGPD:</i>
-<br>
-Usted tiene el derecho de limitar el tratamiento de los datos personales que le conciernen.
-<br><br>
-<i>Derecho a la portabilidad de los datos según el artículo 20 del RGPD:</i>
-<br>
-Usted tiene el derecho de recibir sus datos personales que ha proporcionado al responsable del estudio. De este
-modo, puede solicitar que estos datos sean transferidos o bien a usted o, en caso de que sea técnicamente posible, a
-otro responsable especificado por usted.
-<br><br>
-<i>Derecho de oposición según el artículo 21 del RGPD:</i>
-<br>
-Usted tiene el derecho a oponerse al tratamiento de los datos personales que le conciernen.
-<br><br>
-<b>Responsable</b>
-<br>
-Los responsables legales del procesamiento de los datos personales son:
-<ul>
-    <li>Universitätsmedizin Mainz (Langenbeckstraße 1, 55131 Mainz)</li>
-    <li>Universitätsklinikum Heidelberg (In Neuenheimer Feld 672, 69120 Heidelberg)</li>
-    <li>Centre de Lutte Contre le Cancer Leon Berard (Rue Laennec 28, 69373 Lyon, France)</li>
-    <li>Oxford Brookes University (Headington Campus Gipsy Lane, OX3 OPB Oxford, Vereinigtes Königreich, UK)*</li>
-    <li>Fondazione Monza e Brianza per ll Bambino e La Sua Mamma (Via Pergolesi 33, 20052 Monza, Italien)</li>
-    <li>Region Hovedstaden  (Kngens Vaenge 2, 3400 Hillerod, Dänemark)</li>
-    <li>Universidad Europea de Madrid SL (Calle Tajo S/N, 28670 Villaviciosa, Spanien)</li>
-    <li>Fondazione IRCCS Istituto Nazionale dei Tumori (Via Venezian 1, 20133 Mailand, Italien)</li>
-    <li>Univerzitetni Klinicni Center Ljublijana (Zaloška cesta 002, 1000 Ljubljana, Slowenien) in Kooperation mit Forma 3D Ltd. (Slomškova ulica 35, 1000 Ljubljana, Slowenien)
-    </li>
-    <li>Deutsche Sporthochschule Köln (Am Sportpark Muengersdorf 6, 50933 Cologne)</li>
-</ul>
-<br>
-En caso de dudas y para ejercer sus derechos del interesado, el equipo del estudio FORTEe de su centro de estudio
-está disponible: para ello, póngase en contacto utilizando los datos de contacto indicados en la información del
-estudio. También encontrará más información sobre el estudio FORTEe en los documentos del estudio que se le han
-entregado.
-<br><br>
-<b>Datos de contacto DSB (autoridad alemana para la protección de datos)</b>
-<br>
-Usted tiene el derecho a presentar una reclamación ante una autoridad de control de su elección. En el folleto
-informativo del estudio FORTEe también encontrará las autoridades de control competentes.`,
+    </ul>
+    <br>
+    <b>Receptor de los datos</b>
+    <br>
+    Universitätsmedizin Mainz, Klinik und Poliklinik für Kinder- und Jugendmedizin, Pädiatrische
+    Hämatologie/Onkologie/Hämostaseologie (Langenbeckstraße 1, 55131 Mainz)
+    <br><br>
+    <b>Almacenamiento y borrado de los datos</b>
+    <br>
+    Los datos asociados al estudio se borran transcurridos 30 años a más tardar.
+    <br><br>
+    <b>Derechos de las personas afectadas</b>
+    <br><br>
+    <i>Derecho de acceso según el artículo 15 del RGPD:</i>
+    Usted tiene el derecho de recibir nuestra confirmación de si hemos tratado o no datos personales que le conciernen y, en
+    tal caso, información sobre cuáles son estos datos.
+    <br><br>
+    <i>Derecho de rectificación según los artículos 16 y 19 del RGPD:</i>
+    <br>
+    Usted tiene el derecho de solicitar la rectificación de los datos personales que no sean correctos.
+    <br><br>
+    <i>Derecho de supresión según los artículos 17 y 19 del RGPD:</i>
+    <br>
+    Usted tiene el derecho de solicitar el borrado de los datos personales que le conciernen.
+    <br><br>
+    <i>Derecho a la limitación del tratamiento según los artículos 18 y 19 del RGPD:</i>
+    <br>
+    Usted tiene el derecho de limitar el tratamiento de los datos personales que le conciernen.
+    <br><br>
+    <i>Derecho a la portabilidad de los datos según el artículo 20 del RGPD:</i>
+    <br>
+    Usted tiene el derecho de recibir sus datos personales que ha proporcionado al responsable del estudio. De este
+    modo, puede solicitar que estos datos sean transferidos o bien a usted o, en caso de que sea técnicamente posible, a
+    otro responsable especificado por usted.
+    <br><br>
+    <i>Derecho de oposición según el artículo 21 del RGPD:</i>
+    <br>
+    Usted tiene el derecho a oponerse al tratamiento de los datos personales que le conciernen.
+    <br><br>
+    <b>Responsable</b>
+    <br>
+    Los responsables legales del procesamiento de los datos personales son:
+    <ul>
+    <li>Universitätsmedizin Mainz (Langenbeckstraße 1, 55131 Mainz, Alemania)</li>
+    <li>Universitätsklinikum Heidelberg (In Neuenheimer Feld 672, 69120 Heidelberg, Alemania)</li>
+    <li>Centre de Lutte Contre le Cancer Leon Berard (Rue Laennec 28, 69373 Lyon, Francia) </li>
+    <li>Oxford Brookes University (Headington Campus Gipsy Lane, OX3 OPB Oxford, Reino Unido)* </li>
+    <li>Fondazione Monza e Brianza per ll Bambino e La Sua Mamma (Via Pergolesi 33, 20052 Monza, Italia) </li>
+    <li>Region Hovedstaden (Kongens Vaenge 2, 3400 Hillerod, Dinamarca) </li>
+    <li>Universidad Europea de Madrid SL (Calle Tajo S/N, 28670 Villaviciosa) </li>
+    <li>Fondazione IRCCS Istituto Nazionale dei Tumori (Via Venezian 1, 20133 Milán, Italia) </li>
+    <li>Univerzitetni Klinicni Center Ljublijana (Zaloška cesta 002, 1000 Liubliana, Eslovenia) en cooperación con Forma 3D Ltd. (Slomškova ulica 35, 1000 Liubliana, Eslovenia)</li>
+    <li>Deutsche Sporthochschule Köln (Am Sportpark Muengersdorf 6, 50933 Colonia, Alemania)</li>
+    </ul>
+    <br>
+    En caso de dudas y para ejercer sus derechos del interesado, el equipo del estudio FORTEe de su centro de estudio
+    está disponible: para ello, póngase en contacto utilizando los datos de contacto indicados en la información del
+    estudio. También encontrará más información sobre el estudio FORTEe en los documentos del estudio que se le han
+    entregado.
+    <br><br>
+    <b>Datos de contacto DSB (autoridad alemana para la protección de datos)</b>
+    <br>
+    Usted tiene el derecho a presentar una reclamación ante una autoridad de control de su elección. En el folleto
+    informativo del estudio FORTEe también encontrará las autoridades de control competentes.`,
   },
 };
