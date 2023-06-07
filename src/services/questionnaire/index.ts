@@ -8,7 +8,7 @@ export default class QuestionnaireService implements IQuestionnaireService {
   async fetch(id: string) {
     const [data] = await get<NUMQuestionnaire>({
       url: `${API_BASE_URL}/${API_QUESTIONNAIRE_URI.replace(':id', encodeURIComponent(id))}/${
-        stores.i18n.language.code
+        stores.i18n.language.locale.split('-')[0]
       }`,
       authenticated: true,
     });
