@@ -1,113 +1,111 @@
 export default {
   authenticate: {
     alternatively: '– or alternatively –',
-    continue: 'Proceed',
+    continue: 'Next',
     error: {
-      code_0: 'An error happened while establishing a network connection. Please try again later.',
-      code_401: 'The participation code was not recognized. Please verify that your input is correct.',
-      qr_format: 'Invalid QR code format. Please scan a valid code.',
+      code_0: 'It was not possible to set up a network connection. Please try again later.',
+      code_401: 'The entered participant identification code was not recognised. Please check your entry',
+      qr_format: 'The format of the scanned QR code is invalid. Please scan a valid code.',
       qr_wrong_app:
-        'This QR code belongs to another app. Please verify that you have entered the correct internet address and open the correct app.',
+        'The scanned QR code is not intended for use with this app. Please check the entered internet address and open the correct app.',
     },
-    headline: 'Login',
+    headline: 'Sign in',
     infotext:
-      'Enter your participation code to proceed. In case your device is equipped with a camera and you have received a QR code, you can simply scan it instead of entering the code.',
-    input_label: 'Your participation code',
+      'Please enter your participant identification code in the text box to continue. If you have received a QR code and your end device has a camera, simply scan the QR code instead. If you have any questions, please contact your FORTEe study centre',
+    input_label: 'Your participant identification code',
     stay_logged_in: {
-      checkbox: 'Stay logged in',
-      infotext: 'Do not choose this option in case you are using a public device.',
+      checkbox: 'Stay signed in',
+      infotext: 'Do not select this option if you are using a public device.',
     },
   },
   dashboard: {
     button: {
-      logout: 'Logout',
-      questionnaire: 'Open questionnaire',
+      logout: 'Sign out',
+      questionnaire: 'Complete questionnaire',
       report: 'Report symptoms',
     },
     headline: {
-      new_user: 'Welcome!',
+      new_user: 'Welcome!!',
       returning_user: 'Welcome back!',
     },
     infotext: {
       questionnaire_available: {
-        first_text:
-          "This text is rendered in case that there is an unsubmitted questionnaire available. The questionnaire's deadline is",
-        second_text:
-          'This additional text is displayed in case that there is an unsubmitted questionnaire available.',
+        first_text: 'A new questionnaire is available! Complete the questionnaire by …',
+        second_text: 'A new questionnaire is available!',
       },
       questionnaire_not_available: {
         first_text:
-          'This text is rendered when there is no questionnaire available at the moment. The next questionnaire can be filled out starting at',
+          'No questionnaire is available at present. If you have any questions, please contact your FORTEe study team. The next questionnaire is available from …',
         second_text:
-          'This additional text is displayed in case there is no questionnaire available at the moment. Should you have symptoms, you can report this at any time.',
+          'No questionnaire is available at present. If you have any questions, please contact your FORTEe study team.',
       },
     },
   },
   navigation: {
     contact: 'Contact',
     copyright_note: '© {{ year }} NUM compass',
-    dashboard: 'Overview',
+    dashboard: 'Dashboard',
     faq: 'FAQ',
     imprint: 'Imprint',
     logo: 'FORTEe web app',
     logout: 'Logout',
-    privacy_policy: 'Privacy policy',
-    session_expired: 'Your session expired. Please log in again to proceed.',
-    terms_of_use: 'Terms of use',
+    privacy_policy: 'Privacy Policy',
+    session_expired: 'Your session has expired. Please sign in again to continue.',
+    terms_of_use: 'Terms of Use',
     title: 'Menu',
   },
   notification_bar: {
     dismiss_button: 'Close',
   },
   questionnaire: {
-    overview: 'Go to overview',
     back: 'Back',
     confirm_submit: {
       error:
-        'An error happened while sending your answers. Please try it again at a later time. You may close your browser and proceed later without losing your answers.',
-      headline: 'Submit questionnaire',
-      infotext: 'You have answered all questions. By proceeding, your data will be submitted.',
+        'An error occurred when sending your answers. Please try again later. You can close your browser and continue later without losing your answers.',
+      headline: 'Send questionnaire',
+      infotext: 'You have answered all questions. Click Next to send your data. Many thanks!',
     },
-    continue: 'Proceed',
+    continue: 'Next',
     date_input: {
-      error: 'Please verify your input.',
+      error: 'Please check your entry',
       day: 'Day',
       month: 'Month',
-      open_date_picker: 'Open a date picker',
+      open_date_picker: 'Open calendar',
       year: 'Year',
     },
     dropdown_no_results: 'No results',
-    fetch_failed: 'An error happened while retrieving the questionnaire. Please try again later.',
-    fetch_retry: 'Retry',
+    fetch_failed: 'It was not possible to retrieve the questionnaire. Please try again later.',
+    fetch_retry: 'Try again',
     finish: 'Return to overview',
     group: 'Group {{ number }}',
-    infotext: 'This text is shown when the questionnaire does not contain information on its purpose.',
+    infotext: 'This text is displayed if the questionnaire does not contain information about the purpose',
     question: 'Question {{ number }}',
-    question_type_unsupported: 'Questions of type "{{ type }}" are not supported at the moment!',
+    question_type_unsupported: 'Questions of the "{{ type }}" type are not supported at present!',
     success: {
-      headline: 'Success',
-      infotext: 'Thank you for your contribution!',
+      headline: 'Many thanks!',
+      infotext: 'Many thanks for your contribution!',
     },
   },
   report: {
     confirm_submit: {
       back: 'Back',
-      continue: 'Submit',
-      error: 'Unfortunately an error happened. Please try again later.',
+      continue: 'Send',
+      error: 'An error has occurred. Please try again later.',
       headline: 'Report symptoms',
-      infotext: 'You can report that you have symptoms. Click the button below to submit that information.',
+      infotext: 'If you have symptoms, you can report this. Click the button below to send the information.',
     },
     success: {
       finish: 'Return to overview',
       headline: 'Report symptoms',
       infotext:
-        'You have successfully reported that you have symptoms. A new questionnaire will be provided to you shortly.',
+        'You have successfully reported that you have symptoms. Another questionnaire will be available soon.',
     },
   },
   welcome: {
-    continue: 'Proceed',
+    continue: 'Next',
     headline: 'Welcome',
-    infotext: 'Here is the place for a short and informative introductory text about the app.',
+    infotext:
+      'Welcome to the FORTEe web app! <br>Here you can complete the questionnaires for the FORTEe study. <br>Please note the following: <br>Your data is not saved until you click "Send". It is therefore important not to close the browser while you are completing the questionnaires. If you want to continue answering the questions later on, you can leave the browser window open and come back later. <br>If you cannot or dont want to answer a particular question, you can click "Next" at any time without clicking one of the possible answers.<br>If you dont want to fill out a complete sheet, you can skip it. <br>If you have any questions, you can contact your FORTEe study centre at any time!',
   },
   imprint: {
     headline: 'Imprint',

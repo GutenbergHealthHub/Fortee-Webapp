@@ -10,7 +10,7 @@ import TRANSLATIONS_DK from './translations/dk';
 
 import { NUMLanguage } from 'types';
 
-// HINT: country emjojis not shown on windows; PolyFill for browser w\ https://github.com/talkjs/country-flag-emoji-polyfill
+// HINT: country emojis not shown on windows; PolyFill for browser w\ https://github.com/talkjs/country-flag-emoji-polyfill
 export const LANGUAGES: NUMLanguage[] = CUSTOM.LANGUAGES ?? [
   { code: '🇩🇪', label: 'Deutsch', locale: 'de-DE' },
   { code: '🇬🇧', label: 'English', locale: 'en-US' },
