@@ -194,13 +194,12 @@ export class QuestionnaireQuestionComponent {
           autoComplete="off"
         >
           {descriptionItem && (
-            <p class="questionnaire-question__description">
+            <p class="questionnaire-question__description" innerHTML={descriptionItem.text}>
               {FEATURES_QUESTIONNAIRE_SHOW_LINKIDS && (
                 <Fragment>
                   <strong>{descriptionItem.linkId}</strong>&#160;
                 </Fragment>
               )}
-              {descriptionItem.text}
             </p>
           )}
 

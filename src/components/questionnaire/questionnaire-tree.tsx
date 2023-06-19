@@ -47,7 +47,7 @@ export class QuestionnaireTreeComponent {
                         number: linkId,
                       })}
                   </strong>
-                  <span class="questionnaire-tree__text">{text}</span>
+                  <span class="questionnaire-tree__text" innerHTML={text}></span>
                 </li>
               );
             })}

@@ -13,9 +13,10 @@ export const Card: FunctionalComponent<CardProps> = ({ headline, returnRoute, wi
         slot="card-header"
         class="c-card__header--segmented u-padding-horizontal--medium u-padding-vertical--normal"
       >
-        <h2 class={{ 'c-card__header-title': true, 'c-card__header-title--arrowed': !!returnRoute }}>
-          {headline}
-        </h2>
+        <h2
+          class={{ 'c-card__header-title': true, 'c-card__header-title--arrowed': !!returnRoute }}
+          innerHTML={headline}
+        ></h2>
 
         {returnRoute && (
           <stencil-route-link url={returnRoute} anchorClass="c-card__header-back">
