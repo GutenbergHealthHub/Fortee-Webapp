@@ -60,6 +60,7 @@ export default {
   },
   questionnaire: {
     back: 'Nazaj',
+    overview: 'Pregled',
     confirm_submit: {
       error:
         'Pri pošiljanju vaših odgovorov je prišlo do napake. Poizkusite znova pozneje. Ne da bi izgubili svoje odgovore, lahko brskalnik zaprete in nadaljujete pozneje.',

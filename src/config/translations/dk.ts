@@ -60,6 +60,7 @@ export default {
   },
   questionnaire: {
     back: 'Tilbage',
+    overview: 'Oversigt',
     confirm_submit: {
       error:
         'Der opstod en fejl i forbindelse med afsendelsen af dine svar. Forsøg igen senere. Du kan lukke din browser og fortsætte senere, uden at dine svar går tabt.',

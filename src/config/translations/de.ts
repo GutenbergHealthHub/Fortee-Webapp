@@ -61,6 +61,7 @@ export default {
   },
   questionnaire: {
     back: 'Zurück',
+    overview: 'Übersicht',
     confirm_submit: {
       error:
         'Beim Senden deiner Antworten ist ein Fehler aufgetreten. Bitte versuchen es später erneut. Du kannst deinen Browser schließen und später fortfahren, ohne deine Antworten zu verlieren.',

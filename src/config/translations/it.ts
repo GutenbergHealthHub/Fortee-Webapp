@@ -60,6 +60,7 @@ export default {
   },
   questionnaire: {
     back: 'Indietro ',
+    overview: 'Panoramica',
     confirm_submit: {
       error:
         "Durante l'invio delle risposte si è verificato un errore. Riprova più tardi. Puoi chiudere il tuo browser e riprendere in un secondo momento senza che le tue risposte vadano perse.",

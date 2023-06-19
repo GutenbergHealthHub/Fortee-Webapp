@@ -36,7 +36,9 @@ const storeBuilder = ({ persistor }: Services) => {
       return getLanguageByCode(queryMatch?.[1])?.code ?? store.get('language')?.code;
     },
     cacheUserLanguage(languageCode) {
-      document.documentElement.lang = languageCode;
+      document.documentElement.lang = LANGUAGES.find(
+        (language) => language.code === languageCode
+      ).locale.split('-')[0];
     },
   });
 

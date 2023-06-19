@@ -62,6 +62,7 @@ export default {
   },
   questionnaire: {
     back: 'Atrás ',
+    overview: 'Descripción general',
     confirm_submit: {
       error:
         'Al enviar tus respuestas se ha producido un error. Vuelve a intentarlo más tarde. Puedes cerrar tu navegador web y continuar más tarde sin perder las respuestas.',

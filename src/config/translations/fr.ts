@@ -61,6 +61,7 @@ export default {
   },
   questionnaire: {
     back: 'Retour ',
+    overview: 'Aperçu',
     confirm_submit: {
       error:
         "Une erreur s'est produite lors de l'envoi de tes réponses. Réessaie plus tard s.t.p. Tu peux fermer ton navigateur et continuer plus tard sans perdre tes réponses.",

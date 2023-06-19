@@ -59,6 +59,7 @@ export default {
   },
   questionnaire: {
     back: 'Back',
+    overview: 'Overview',
     confirm_submit: {
       error:
         'An error occurred when sending your answers. Please try again later. You can close your browser and continue later without losing your answers.',
