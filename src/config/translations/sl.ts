@@ -47,6 +47,7 @@ export default {
     copyright_note: '© {{ year }} NUM compass',
     dashboard: 'Pregled',
     faq: 'FAQ',
+    instructions: 'Navodila',
     imprint: 'Imprint',
     logo: 'FORTEe compass web app',
     logout: 'Odjava',

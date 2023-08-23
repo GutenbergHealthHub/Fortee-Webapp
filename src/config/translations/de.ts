@@ -48,6 +48,7 @@ export default {
     copyright_note: '© {{ year }} NUM compass',
     dashboard: 'Übersicht',
     faq: 'FAQ',
+    instructions: 'Instruktionen',
     imprint: 'Impressum',
     logo: 'FORTEe web app',
     logout: 'Abmelden',

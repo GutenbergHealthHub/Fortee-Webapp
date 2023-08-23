@@ -47,6 +47,7 @@ export default {
     copyright_note: '© {{ year }} NUM compass',
     dashboard: 'Pagina iniziale',
     faq: 'FAQ',
+    instructions: 'Istruzioni',
     imprint: 'Informazione Legale',
     logo: 'NUM compass web app',
     logout: 'Logout',

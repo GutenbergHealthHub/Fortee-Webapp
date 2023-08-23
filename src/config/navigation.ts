@@ -40,6 +40,11 @@ export const NAVIGATION_ITEMS: NUMNavigationItem[] = CUSTOM.NAVIGATION_ITEMS ?? 
     icon: 'document',
   },
   {
+    key: 'instructions',
+    url: 'https://fortee-project.eu/instructions',
+    icon: 'info',
+  },
+  {
     key: 'faq',
     url: 'https://faq.dev',
     icon: 'questionmark',
