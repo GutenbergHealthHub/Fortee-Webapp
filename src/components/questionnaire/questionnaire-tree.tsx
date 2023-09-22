@@ -48,6 +48,7 @@ export class QuestionnaireTreeComponent {
                       })}
                   </strong>
                   <span class="questionnaire-tree__text" innerHTML={text}></span>
+                  {flattenedItems.find((item) => item.linkId === linkId)?.answer?.length > 0 && <d4l-icon iconName="check" iconClasses='icon--small'/>}
                 </li>
               );
             })}

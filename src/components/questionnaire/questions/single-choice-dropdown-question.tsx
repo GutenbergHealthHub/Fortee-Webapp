@@ -7,7 +7,7 @@ import { QuestionnaireQuestionComponentProps } from './types';
 
 const buildOptions = (question: NUMQuestionnaireFlattenedItem) => {
   const IntlCollator = window.Intl?.Collator;
-  const collator = IntlCollator ? new IntlCollator(stores.i18n.language.code) : null;
+  const collator = IntlCollator ? new IntlCollator(stores.i18n.language.locale.split('-')[0]) : null;
 
   return question.availableOptions
     .map((option, index) => {
