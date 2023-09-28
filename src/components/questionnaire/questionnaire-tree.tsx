@@ -28,7 +28,7 @@ export class QuestionnaireTreeComponent {
             .filter(
               ({ isHidden, isEnabled }) => !isHidden && (QUESTIONNAIRE_TREE_SHOW_DISABLED_ITEMS || isEnabled)
             )
-            .map(({ linkId, text, type, level, isAnswerable, firstChildQuestion }, index) => {
+            .map(({ linkId, text, type, level, isAnswerable, firstChildQuestion, isAnswered }, index) => {
               return (
                 <li
                   class={`questionnaire-tree_item ${
@@ -47,8 +47,13 @@ export class QuestionnaireTreeComponent {
                         number: linkId,
                       })}
                   </strong>
-                  <span class="questionnaire-tree__text" innerHTML={text}></span>
-                  {flattenedItems.find((item) => item.linkId === linkId)?.answer?.length > 0 && <d4l-icon iconName="check" iconClasses='icon--small'/>}
+                  <div class="questionnaire-tree__text" innerHTML={text}></div>
+                  {isAnswered && (
+                    <d4l-icon iconName="check" iconClasses="questionnaire-tree__icon icon--small success" />
+                  )}
+                  {flattenedItems.find((item) => item.linkId === linkId).required && !isAnswered && (
+                    <d4l-icon-error-outline classes="questionnaire-tree__icon icon--small alert" />
+                  )}
                 </li>
               );
             })}

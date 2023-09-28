@@ -35,6 +35,7 @@
 }
 
 .questionnaire-tree__text {
+  display: flex;
   flex: 1;
   margin-left: 1rem;
   font-size: var(--font-size-desktop-xs);
@@ -42,4 +43,17 @@
   overflow: hidden;
   text-overflow: ellipsis;
   min-height: 24px;
+  align-items: center;
+}
+
+.questionnaire-tree__icon {
+  margin-inline: 5px;
+}
+
+.questionnaire-tree__icon.alert {
+  color: #d96e6e;
+}
+
+.questionnaire-tree__icon.success {
+  color: #61aa6b;
 }
