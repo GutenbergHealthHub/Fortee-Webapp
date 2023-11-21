@@ -29,7 +29,7 @@ export default class QuestionnaireService implements IQuestionnaireService {
     const params = {
       type: 'questionnaire_response',
       subjectId: userId,
-      surveyId: stores.user.questionnaireId,
+      surveyId: stores.user.questionnaireId + '|' + stores.questionnaire.questionnaire.version,
       instanceId: stores.user.instanceId,
       updateValues: JSON.stringify(buildFlags(stores.questionnaire)),
     };
