@@ -174,7 +174,7 @@ export default {
   },
   privacy_policy: {
     headline: 'Varstvo osebnih podatkov',
-    content: `Dostop do spletne aplikacije je na voljo prek naslednje zaščitene spletne strani: <a href"https://fortee.izks-mainz.de">https://fortee.izks-mainz.de/</a>
+    content: `Dostop do spletne aplikacije je na voljo prek naslednje zaščitene spletne strani: <a href"https://fortee.izks-mainz.de">https://fortee.ghh4.unimedizin-mainz.de/</a>
     <br><br>
     Z uporabo spletne aplikacije FORTEe lahko udeleženci študije izpolnite in oddate vprašalnike iz študije FORTEe. Aplikacija deluje izključno prek ustreznega internetnega brskalnika končne naprave, ki podpira internet; dodatna namestitev programske opreme ali kakršnakoli oblika registracije ni potrebna.
     <br><br>

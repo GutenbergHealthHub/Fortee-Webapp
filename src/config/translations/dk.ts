@@ -175,7 +175,7 @@ export default {
   },
   privacy_policy: {
     headline: 'Databeskyttelseserklæring ',
-    content: `Webappen kan tilgås via følgende sikre webside: <a href="https://fortee.izks-mainz.de/">https://fortee.izks-mainz.de/</a>
+    content: `Webappen kan tilgås via følgende sikre webside: <a href="https://fortee.ghh4.unimedizin-mainz.de/">https://fortee.ghh4.unimedizin-mainz.de/</a>
     <br><br>
     Med FORTEe-webappen kan undersøgelsesdeltagerne udfylde og overføre spørgeskemaer, der indgår i FORTEe-undersøgelsen. Anvendelse sker via en internetbrowser på en enhed med adgang til internettet, og der skal i denne forbindelse ikke installeres yderligere software eller ske yderligere registrering.
     <br><br>

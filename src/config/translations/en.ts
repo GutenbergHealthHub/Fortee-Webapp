@@ -168,7 +168,7 @@ export default {
   },
   privacy_policy: {
     headline: 'Privacy policy',
-    content: `The web app is accessed via the following secure website: <a href="https://fortee.izks-mainz.de">https://fortee.izks-mainz.de/</a>
+    content: `The web app is accessed via the following secure website: <a href="https://fortee.izks-mainz.de">https://fortee.ghh4.unimedizin-mainz.de/</a>
     <br><br>
     Using the FORTEe web app, study participants can complete and send questionnaires of the FORTEe study. The web app is used only in the internet browser of a web-enabled device; no additional software installation or any form of registration are required.
     <br><br>

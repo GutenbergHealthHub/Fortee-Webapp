@@ -177,7 +177,7 @@ export default {
   },
   privacy_policy: {
     headline: 'Datenschutzerklärung',
-    content: `Die Webapp ist über die folgende gesicherte Website erreichbar: <a href="https://fortee.izks-mainz.de/">https://fortee.izks-mainz.de/</a>
+    content: `Die Webapp ist über die folgende gesicherte Website erreichbar: <a href="https://fortee.ghh4.unimedizin-mainz.de/">https://fortee.ghh4.unimedizin-mainz.de/</a>
       <br><br>
       Mit der Nutzung der FORTEe Web App können Fragebögen der FORTEe Studie durch Studienteilnehmer*innen ausgefüllt und übermittelt werden. Die Nutzung erfolgt ausschließlich im entsprechenden Internetbrowser eines internetfähigen Endgeräts; dabei ist keine zusätzliche Installation von Software oder eine Form der Registrierung erforderlich.
       <br><br>

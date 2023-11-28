@@ -170,7 +170,7 @@ export default {
   },
   privacy_policy: {
     headline: 'Informativa sulla privacy',
-    content: `È possibile accedere all'applicazione web tramite il seguente sito web protetto: <a href="https://fortee.izks-mainz.de">https://fortee.izks-mainz.de/</a>
+    content: `È possibile accedere all'applicazione web tramite il seguente sito web protetto: <a href="https://fortee.izks-mainz.de">https://fortee.ghh4.unimedizin-mainz.de/</a>
     <br><br>
     I/le partecipanti possono compilare e inviare i questionari dello studio FORTEe usando l'applicazione web FORTEe. L'utilizzo avviene esclusivamente sul browser Internet di un dispositivo abilitato a Internet; non è richiesta nessuna installazione aggiuntiva di software né alcuna forma di registrazione.
     <br><br>
