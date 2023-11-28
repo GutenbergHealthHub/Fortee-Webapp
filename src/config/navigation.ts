@@ -36,7 +36,7 @@ export const NAVIGATION_ITEMS: NUMNavigationItem[] = CUSTOM.NAVIGATION_ITEMS ?? 
   },
   {
     key: 'contact',
-    url: 'https://contact.dev',
+    url: 'https://fortee-project.eu/contact/univ-prof-dr-med-jorg-faber/',
     icon: 'document',
   },
   {
@@ -44,11 +44,11 @@ export const NAVIGATION_ITEMS: NUMNavigationItem[] = CUSTOM.NAVIGATION_ITEMS ?? 
     url: 'https://fortee-project.eu/instructions',
     icon: 'info',
   },
-  {
-    key: 'faq',
-    url: 'https://faq.dev',
-    icon: 'questionmark',
-  },
+  // {
+  //   key: 'faq',
+  //   url: 'https://faq.dev',
+  //   icon: 'questionmark',
+  // },
   {
     key: 'logout',
     fn: (stores) => stores.auth.logout(),
