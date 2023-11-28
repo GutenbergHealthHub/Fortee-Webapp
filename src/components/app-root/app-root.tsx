@@ -142,7 +142,6 @@ export class AppRoot {
               />
               <stencil-route component="num-container-authenticate" url={ROUTES.AUTHENTICATE} exact />
               <AuthenticatedRoute component="num-container-dashboard" url={ROUTES.DASHBOARD} />
-              <AuthenticatedRoute component="num-container-report" url={ROUTES.REPORT} />
               <AuthenticatedRoute component="num-container-questionnaire" url={ROUTES.QUESTIONNAIRE} />
               <stencil-route
                 url={ROUTES.IMPRINT}
